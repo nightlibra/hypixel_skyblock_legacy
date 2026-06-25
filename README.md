@@ -4,6 +4,9 @@ The original Hypixel SkyBlock textures.
 ## Project Information
 This project aims to allow players to use [Hypixel SkyBlock](https://hypixel.net/categories/194/)'s original textures, which is comprised of vanilla Minecraft items and custom player heads.
 
+## Dependencies
+- The [Catharsis Mod](https://modrinth.com/mod/catharsis) allows you to apply a resource pack above the server's default resource pack. Besides that, it is not required for this pack to work properly.
+
 # More Information
 
 ## Contact
