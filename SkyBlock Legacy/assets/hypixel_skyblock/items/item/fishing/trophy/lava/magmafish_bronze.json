@@ -1,1 +1,1 @@
-{"model":{"type":"minecraft:special","base":"minecraft:item/template_skull","model":{"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:trophy/magmafish_bronze"}}}
+{"model":{"type":"minecraft:special","base":"minecraft:item/template_skull","model":{"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:collection/magma_fish"}}}
