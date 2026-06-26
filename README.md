@@ -1,22 +1,22 @@
 # Hypixel SkyBlock Legacy
 The original Hypixel SkyBlock textures.
 
-## Project Information
-This project aims to allow players to use [Hypixel SkyBlock](https://hypixel.net/categories/194/)'s original textures, which is comprised of vanilla Minecraft items and custom player heads.
+This is a resource pack to revert [Hypixel SkyBlock](https://wiki.hypixel.net/Introduction) items to their original textures, which are a mix of vanilla Minecraft items and custom player heads.
 
 ## Dependencies
-- The [Catharsis Mod](https://modrinth.com/mod/catharsis) allows you to apply a resource pack above the server's default resource pack. Besides that, it is not required for this pack to work properly.
+You might need a mod, like [Server Pack Unlocker](<https://modrinth.com/mod/server-pack-unlocker>) or [Catharsis](https://modrinth.com/mod/catharsis), to move this or any other resource pack above Hypixel's server resource pack. Besides that, this pack is vanilla-compatible and does not require any specific mods to work.
 
 # More Information
 
-## Contact
-- [My Project Discord](https://discord.gg/M7HqWKxDxS)
-- Modrinth Download (Coming Soon)
+## Project Links
+- [Modrinth Page](https://modrinth.com/resourcepack/hypixel-skyblock-legacy)
+- [Hypixel Thread](https://hypixel.net/threads/6115320/)
+- [Discord Server](https://discord.gg/M7HqWKxDxS)
 
-## Links and References
-- The [Hypixel SkyBlock Forums](https://hypixel.net/categories/194/) and [Discord](https://discord.gg/hypixel)
+## Hypixel SkyBlock
+- The [Hypixel SkyBlock Forums](https://hypixel.net/categories/194/) and [Discord Server](https://discord.gg/hypixel)
 - The [Hypixel SkyBlock Wiki](https://hypixelskyblock.wiki)
-- [SkyBlock Resource Pack (First Alpha)](https://hypixel.net/threads/6107861/)
+- The first iteration of Hypixel SkyBlock's custom resource pack can be found [here](https://hypixel.net/threads/6107861/).
 
 ## Disclaimer
 This is a passion project, and is not maintained nor endorsed by [Hypixel](https://hypixel.net). Most assets provided here are exclusively owned by Hypixel, contact them with any requests for useage permission.
