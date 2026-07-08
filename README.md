@@ -6,6 +6,11 @@ This is a resource pack to revert [Hypixel SkyBlock](https://wiki.hypixel.net/In
 ## Dependencies
 You might need a mod, like [Server Pack Unlocker](<https://modrinth.com/mod/server-pack-unlocker>) or [Catharsis](https://modrinth.com/mod/catharsis), to move this or any other resource pack above Hypixel's server resource pack. Besides that, this pack is vanilla-compatible and does not require any specific mods to work.
 
+### Configuration Options
+When using the [Catharsis](https://modrinth.com/mod/catharsis) mod, the following configuration options are available:
+- Vanilla Tooltips: Use the vanilla Minecraft tooltips instead of Hypixel's.
+- Remove Shortbow Drawback: Remove the drawback animation on shortbows.
+
 # More Information
 
 ## Project Links
