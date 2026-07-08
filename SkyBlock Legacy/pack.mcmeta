@@ -35,7 +35,7 @@
         "title": "SkyBlock Legacy",
         "options": [
           {
-            "type": "separator",
+            "type": "information",
             "title": "Legacy Textures",
             "description": [{"text":"The original Hypixel SkyBlock textures, which are a mix of vanilla Minecraft items and custom player heads.", "color":"gray"}]
           },
@@ -49,6 +49,13 @@
             "id": "skyblock_legacy:vanilla_tooltips",
             "title": "Vanilla Tooltips",
             "description": [{"text":"Use the vanilla Minecraft tooltips instead of Hypixel's.", "color":"gray"}],
+            "default": false
+          },
+          {
+            "type": "boolean",
+            "id": "skyblock_legacy:no_shortbow_drawback",
+            "title": "Remove Shortbow Drawback",
+            "description": [{"text":"Remove the drawback animation on shortbows.", "color":"gray"}],
             "default": false
           }
         ]
@@ -64,6 +71,14 @@
           "condition": "catharsis:config",
           "pack": "skyblock_legacy",
           "id": "skyblock_legacy:vanilla_tooltips"
+        }
+      },
+      {
+        "directory": "no_shortbow_drawback",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:no_shortbow_drawback"
         }
       }
     ]
