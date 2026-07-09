@@ -27,7 +27,7 @@
 
   "catharsis:pack/v1": {
     "id": "skyblock_legacy",
-    "version": "1.0.3",
+    "version": "1.0.5",
     "dependencies": {"catharsis": ">=1.0.0-beta.5"},
     "config": [
       {
@@ -85,7 +85,7 @@
   },
 
   "meta": {
-    "version": ["v1.0.3", "mc:1.21.11+"],
+    "version": ["v1.0.5", "mc:1.21.11+"],
     "discord": "https://discord.gg/M7HqWKxDxS"
   }
 }
