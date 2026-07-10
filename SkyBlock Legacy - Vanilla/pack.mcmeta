@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "min_format": [75, 0],
+    "max_format": [88, 0],
+    "description": ["The original Hypixel SkyBlock textures",{"text":" -nightlibra","color":"dark_gray"}]
+  },
+
+  "meta": {
+    "version": ["v1.0.6", "mc:1.21.11+"],
+    "discord": "https://discord.gg/M7HqWKxDxS"
+  }
+}

@@ -1,0 +1,109 @@
+{
+  "pack": {
+    "min_format": [75, 0],
+    "max_format": [88, 0],
+    "description": ["The original Hypixel SkyBlock textures",{"text":" -nightlibra","color":"dark_gray"}]
+  },
+
+  "catharsis:pack/v1": {
+    "id": "skyblock_legacy",
+    "version": "1.0.6",
+    "dependencies": {"catharsis": ">=1.0.0-beta.5"},
+    "config": [
+      {
+        "type": "tab",
+        "title": "SkyBlock Legacy",
+        "options": [
+          {
+            "type": "separator",
+            "title": [{"text":"SkyBlock Legacy", "color":"gold"}," ",{"text":"by", "color":"white"}," ",{"text":"nightlibra", "color":"aqua"}],
+            "description": [
+              {"text":"v1.0.6", "color":"gray"},
+              {"text":" | ", "color":"dark_gray"},
+              {"text":"Modrinth", "color":"blue", "hover_event":{"action":"show_text", "value":[{"text":"Click to view on Modrinth", "color":"yellow"},"\n",{"text":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy", "color":"gray"}]}, "click_event":{"action":"open_url", "url":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy"}},
+              {"text":" • ", "color":"dark_gray"},
+              {"text":"GitHub", "color":"blue", "hover_event":{"action":"show_text", "value":[{"text":"Click to view on GitHub", "color":"yellow"},"\n",{"text":"https://github.com/nightlibra/hypixel_skyblock_legacy", "color":"gray"}]}, "click_event":{"action":"open_url", "url":"https://github.com/nightlibra/hypixel_skyblock_legacy"}},
+              {"text":" • ", "color":"dark_gray"},
+              {"text":"Discord", "color":"blue", "hover_event":{"action":"show_text", "value":[{"text":"Click to join the discord", "color":"yellow"},"\n",{"text":"https://discord.gg/M7HqWKxDxS", "color":"gray"}]}, "click_event":{"action":"open_url", "url":"https://discord.gg/M7HqWKxDxS"}}
+            ]
+          },
+          {
+            "type": "boolean",
+            "title": "Legacy Textures",
+            "id": "skyblock_legacy:legacy_textures",
+            "description": [{"text":"The original Hypixel SkyBlock textures, which are a mix of vanilla Minecraft items and custom player head art.", "color":"gray"}],
+            "default": true
+          },
+          {
+            "type": "boolean",
+            "id": "skyblock_legacy:vanilla_colors",
+            "title": "Vanilla Colors",
+            "description": [{"text":"Use the vanilla Minecraft text colors.", "color":"gray"}],
+            "default": true
+          },
+          {
+            "type": "boolean",
+            "id": "skyblock_legacy:vanilla_tooltips",
+            "title": "Vanilla Tooltips",
+            "description": [{"text":"Use the vanilla Minecraft tooltips textures.", "color":"gray"}],
+            "default": true
+          },
+          {
+            "type": "separator",
+            "title": {"text":"More Options", "color":"white"},
+            "description": ""
+          },
+          {
+            "type": "boolean",
+            "id": "skyblock_legacy:no_shortbow_drawback",
+            "title": "Remove Shortbow Drawback",
+            "description": [{"text":"Remove the drawback animation on shortbows.", "color":"gray"}],
+            "default": false
+          }
+        ]
+      }
+    ]
+  },
+
+  "fabric:overlays": {
+    "entries": [
+      {
+        "directory": "legacy_textures",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures"
+        }
+      },
+      {
+        "directory": "vanilla_colors",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:vanilla_colors"
+        }
+      },
+      {
+        "directory": "vanilla_tooltips",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:vanilla_tooltips"
+        }
+      },
+      {
+        "directory": "no_shortbow_drawback",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:no_shortbow_drawback"
+        }
+      }
+    ]
+  },
+
+  "meta": {
+    "version": ["v1.0.6", "mc:1.21.11+"],
+    "discord": "https://discord.gg/M7HqWKxDxS"
+  }
+}
