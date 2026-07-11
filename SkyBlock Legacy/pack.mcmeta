@@ -5,9 +5,16 @@
     "description": ["The original Hypixel SkyBlock textures",{"text":" -nightlibra","color":"dark_gray"}]
   },
 
+  "meta": {
+    "version": ["v1.0.7", "mc:1.21.11+"],
+    "discord": "https://discord.gg/M7HqWKxDxS",
+    "modrinth": "https://modrinth.com/resourcepack/hypixel-skyblock-legacy",
+    "github": "https://github.com/nightlibra/hypixel_skyblock_legacy"
+  },
+
   "catharsis:pack/v1": {
     "id": "skyblock_legacy",
-    "version": "1.0.6",
+    "version": "v1.0.7",
     "dependencies": {"catharsis": ">=1.0.0-beta.5"},
     "config": [
       {
@@ -18,7 +25,7 @@
             "type": "separator",
             "title": [{"text":"SkyBlock Legacy", "color":"gold"}," ",{"text":"by", "color":"white"}," ",{"text":"nightlibra", "color":"aqua"}],
             "description": [
-              {"text":"v1.0.6", "color":"gray"},
+              {"text":"v1.0.7", "color":"gray"},
               {"text":" | ", "color":"dark_gray"},
               {"text":"Modrinth", "color":"blue", "hover_event":{"action":"show_text", "value":[{"text":"Click to view on Modrinth", "color":"yellow"},"\n",{"text":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy", "color":"gray"}]}, "click_event":{"action":"open_url", "url":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy"}},
               {"text":" • ", "color":"dark_gray"},
@@ -47,6 +54,13 @@
             "title": "Vanilla Tooltips",
             "description": [{"text":"Use the vanilla Minecraft tooltip textures.", "color":"gray"}],
             "default": true
+          },
+          {
+            "type": "boolean",
+            "id": "skyblock_legacy:vanilla_font",
+            "title": "Vanilla Font",
+            "description": [{"text":"Use the vanilla Minecraft font glyphs.", "color":"gray"}],
+            "default": false
           },
           {
             "type": "separator",
@@ -92,6 +106,14 @@
         }
       },
       {
+        "directory": "vanilla_font",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:vanilla_font"
+        }
+      },
+      {
         "directory": "no_shortbow_drawback",
         "condition": {
           "condition": "catharsis:config",
@@ -100,10 +122,5 @@
         }
       }
     ]
-  },
-
-  "meta": {
-    "version": ["v1.0.6", "mc:1.21.11+"],
-    "discord": "https://discord.gg/M7HqWKxDxS"
   }
 }

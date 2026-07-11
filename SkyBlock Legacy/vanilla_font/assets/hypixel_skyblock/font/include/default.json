@@ -1,0 +1,26 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "hypixel_skyblock:font/default.png",
+            "ascent": 7,
+            "chars": [
+                "",
+                "",
+                "",
+                "",
+                "",
+                "\u0000"
+            ]
+        },
+        {
+            "type": "bitmap",
+            "file": "hypixel_skyblock:font/accented.png",
+            "height": 12,
+            "ascent": 10,
+            "chars": [
+                ""
+            ]
+        }
+    ]
+}
