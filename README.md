@@ -1,19 +1,18 @@
 # Hypixel SkyBlock Legacy
 The original Hypixel SkyBlock textures.
 
-This is a resource pack to revert [Hypixel SkyBlock](https://wiki.hypixel.net/Introduction) items to their original textures, which are a mix of vanilla Minecraft items and custom player heads.
+This is a resource pack to revert [Hypixel SkyBlock](https://wiki.hypixel.net/Introduction) items to their original textures, which are a mix of vanilla Minecraft items and custom player head art.
 
 ## Dependencies
-You might need a mod, like [Server Pack Unlocker](<https://modrinth.com/mod/server-pack-unlocker>) or [Catharsis](https://modrinth.com/mod/catharsis), to move this or any other resource pack above Hypixel's server resource pack. Besides that:
-- Vanilla: This pack is vanilla-compatible and does not require any specific mod to work.
-- Catharsis: This pack depends upon the [Catharsis](https://modrinth.com/mod/catharsis) mod to work.
+**SkyBlock Legacy** depends upon the [Catharsis](<https://modrinth.com/mod/catharsis>) mod to provide configuration options and to allow moving this or any other resource pack above Hypixel's server-enforced resource pack. If you do not use Catharsis or prefer to use a different mod, such as [Server Pack Unlocker](<https://modrinth.com/mod/server-pack-unlocker>), then you can use **SkyBlock Legacy Lite** instead, which is vanilla-compatible and does not require any specific mods to work.
 
-### Configuration Options
-When using the [Catharsis](https://modrinth.com/mod/catharsis) mod, the following configuration options are available:
-- Legacy Textures: The original Hypixel SkyBlock textures.
-- Vanilla Colors: Use the vanilla Minecraft text colors.
-- Vanilla Tooltips: Use the vanilla Minecraft tooltip textures.
-- Remove Shortbow Drawback: Remove the drawback animation on shortbows.
+## Configuration Options
+| Option | Description | Default | Lite |
+|--------|-------------|:-------:|:----:|
+| Legacy Textures | The original Hypixel SkyBlock textures | On | Yes |
+| Vanilla Colors | Use the vanilla Minecraft text colors | On | Yes |
+| Vanilla Tooltips | Use the vanilla Minecraft tooltip textures | On | Yes |
+| Remove Shortbow Drawback | Remove the drawback animation on shortbows | Off | No |
 
 # More Information
 
