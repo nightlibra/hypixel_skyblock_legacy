@@ -9,9 +9,10 @@ This is a resource pack to revert [Hypixel SkyBlock](https://wiki.hypixel.net/In
 ## Configuration Options
 | Option | Description | Default | Lite |
 |--------|-------------|:-------:|:----:|
-| Legacy Textures | The original Hypixel SkyBlock textures | On | Yes |
+| Legacy Textures | The original Hypixel SkyBlock textures | All | Yes |
 | Vanilla Colors | Use the vanilla Minecraft text colors | On | Yes |
 | Vanilla Tooltips | Use the vanilla Minecraft tooltip textures | On | Yes |
+| Vanilla Font | Use the vanilla Minecraft font glyphs | Off | Yes |
 | Remove Shortbow Drawback | Remove the drawback animation on shortbows | Off | No |
 
 # More Information
