@@ -5,6 +5,26 @@
     "description": ["The original Hypixel SkyBlock textures",{"text":" -nightlibra","color":"dark_gray"}]
   },
 
+  "overlays": {
+    "entries": [
+      {
+        "directory": "vanilla_colors",
+        "min_format": [75, 0],
+        "max_format": [88, 0]
+      },
+      {
+        "directory": "vanilla_font",
+        "min_format": [75, 0],
+        "max_format": [88, 0]
+      },
+      {
+        "directory": "vanilla_tooltips",
+        "min_format": [75, 0],
+        "max_format": [88, 0]
+      }
+    ]
+  },
+
   "meta": {
     "version": ["v1.0.6", "mc:1.21.11+"],
     "discord": "https://discord.gg/M7HqWKxDxS"

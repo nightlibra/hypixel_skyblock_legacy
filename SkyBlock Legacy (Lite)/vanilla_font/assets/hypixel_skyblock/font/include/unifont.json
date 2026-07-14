@@ -1,0 +1,8 @@
+{
+    "providers": [
+        {
+            "type": "unihex",
+            "hex_file": "hypixel_skyblock:font/include/unifont.zip"
+        }
+    ]
+}
