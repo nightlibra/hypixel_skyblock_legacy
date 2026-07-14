@@ -23,7 +23,7 @@
         "options": [
           {
             "type": "separator",
-            "title": [{"text":"SkyBlock Legacy", "color":"gold"}," ",{"text":"by", "color":"white"}," ",{"text":"nightlibra", "color":"aqua"}],
+            "title": ["",{"text":"SkyBlock Legacy", "color":"gold"}," ",{"text":"by"}," ",{"player":{"id":[-1364134607,-750761016,-1398478805,842316956]},"color":"#FFFFFF"}," ",{"text":"nightlibra", "color":"aqua"}],
             "description": [
               {"text":"v1.0.7", "color":"gray"},
               {"text":" | ", "color":"dark_gray"},
@@ -35,11 +35,142 @@
             ]
           },
           {
-            "type": "boolean",
-            "title": "Legacy Textures",
+            "type": "select",
             "id": "skyblock_legacy:legacy_textures",
+            "title": "Legacy Textures",
             "description": [{"text":"The original Hypixel SkyBlock textures, which are a mix of vanilla Minecraft items and custom player head art.", "color":"gray"}],
-            "default": true
+            "options": [
+              {
+                "value": "skyblock_legacy:legacy_textures/abiphone",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/abiphone"}," ",{"text":"Abiphone"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/arrow",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/arrow"}," ",{"text":"Arrow"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/arrow_poison",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/lime_dye"}," ",{"text":"Arrow Poison"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/axe",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/diamond_axe"}," ",{"text":"Axe"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/bait",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/bait"}," ",{"text":"Bait"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/bow",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/bow"}," ",{"text":"Bow"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/chisel",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/armor_stand"}," ",{"text":"Chisel"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/drill",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/prismarine_shard"}," ",{"text":"Drill"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/dwarven_metal",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/prismarine_crystals"}," ",{"text":"Dwarven Metal"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/farming_tool",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/diamond_hoe"}," ",{"text":"Farming Tool"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/fishing_net",
+                "text": [{"atlas":"minecraft:blocks", "sprite":"minecraft:block/cobweb"}," ",{"text":"Fishing Net"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/fishing_rod",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/fishing_rod"}," ",{"text":"Fishing Rod"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/garden_chip",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/garden_chip"}," ",{"text":"Garden Chip"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/gemstone",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/gemstone"}," ",{"text":"Gemstone"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/lasso",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/lead"}," ",{"text":"Lasso"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/pickaxe",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/diamond_pickaxe"}," ",{"text":"Pickaxe"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/rod_part",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/rod_part"}," ",{"text":"Rod Part"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/salt",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/salt"}," ",{"text":"Salt"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/shovel",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/diamond_shovel"}," ",{"text":"Shovel"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/sword",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/diamond_sword"}," ",{"text":"Sword"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/trap",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/trap"}," ",{"text":"Trap"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/trophy",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/trophy"}," ",{"text":"Trophy"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/vacuum",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/minecart"}," ",{"text":"Vacuum"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/wand",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/stick"}," ",{"text":"Wand"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/watering_can",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/watering_can"}," ",{"text":"Watering Can"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/uncategorized",
+                "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/nether_star"}," ",{"text":"Miscellaneous"}],
+                "selected": true
+              }
+            ]
           },
           {
             "type": "boolean",
@@ -82,11 +213,237 @@
   "fabric:overlays": {
     "entries": [
       {
-        "directory": "legacy_textures",
+        "directory": "legacy_axe",
         "condition": {
           "condition": "catharsis:config",
           "pack": "skyblock_legacy",
-          "id": "skyblock_legacy:legacy_textures"
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/axe"
+        }
+      },
+      {
+        "directory": "legacy_abiphone",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/abiphone"
+        }
+      },
+      {
+        "directory": "legacy_arrow",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/arrow"
+        }
+      },
+      {
+        "directory": "legacy_arrow_poison",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/arrow_poison"
+        }
+      },
+      {
+        "directory": "legacy_bait",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/bait"
+        }
+      },
+      {
+        "directory": "legacy_bow",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/bow"
+        }
+      },
+      {
+        "directory": "legacy_chisel",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/chisel"
+        }
+      },
+      {
+        "directory": "legacy_drill",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/drill"
+        }
+      },
+      {
+        "directory": "legacy_dwarven_metal",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/dwarven_metal"
+        }
+      },
+      {
+        "directory": "legacy_farming_tool",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/farming_tool"
+        }
+      },
+      {
+        "directory": "legacy_fishing_net",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/fishing_net"
+        }
+      },
+      {
+        "directory": "legacy_fishing_rod",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/fishing_rod"
+        }
+      },
+      {
+        "directory": "legacy_garden_chip",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/garden_chip"
+        }
+      },
+      {
+        "directory": "legacy_gemstone",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/gemstone"
+        }
+      },
+      {
+        "directory": "legacy_lasso",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/lasso"
+        }
+      },
+      {
+        "directory": "legacy_pickaxe",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/pickaxe"
+        }
+      },
+      {
+        "directory": "legacy_rod_part",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/rod_part"
+        }
+      },
+      {
+        "directory": "legacy_salt",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/salt"
+        }
+      },
+      {
+        "directory": "legacy_shovel",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/shovel"
+        }
+      },
+      {
+        "directory": "legacy_sword",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/sword"
+        }
+      },
+      {
+        "directory": "legacy_trap",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/trap"
+        }
+      },
+      {
+        "directory": "legacy_trophy",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/trophy"
+        }
+      },
+      {
+        "directory": "legacy_vacuum",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/vacuum"
+        }
+      },
+      {
+        "directory": "legacy_wand",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/wand"
+        }
+      },
+      {
+        "directory": "legacy_watering_can",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/watering_can"
+        }
+      },
+      {
+        "directory": "legacy_uncategorized",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/uncategorized"
         }
       },
       {
