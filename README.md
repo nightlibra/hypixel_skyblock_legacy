@@ -18,9 +18,8 @@ This is a resource pack to revert [Hypixel SkyBlock](https://wiki.hypixel.net/In
 # More Information
 
 ## Project Links
-- [Modrinth Page](https://modrinth.com/resourcepack/hypixel-skyblock-legacy)
-- [Hypixel Thread](https://hypixel.net/threads/6115320/)
-- [Discord Server](https://discord.gg/M7HqWKxDxS)
+[![Discord](https://img.shields.io/discord/820040160402079774?style=plastic&logo=discord&logoColor=ffffff&label=Discord&color=7289da)](https://discord.gg/M7HqWKxDxS) [![Modrinth Downloads](https://img.shields.io/modrinth/dt/eiWiefXD?style=plastic&logo=modrinth&label=Modrinth%20Downloads)](https://modrinth.com/resourcepack/hypixel-skyblock-legacy) [![Static Badge](https://img.shields.io/badge/GitHub-Repository-blue?style=plastic&logo=github)](https://github.com/nightlibra/hypixel_skyblock_legacy) [![Static Badge](https://img.shields.io/badge/Hypixel_Thread-gray?style=plastic)
+](https://hypixel.net/threads/6115320/)
 
 ## Hypixel SkyBlock
 - The [Hypixel SkyBlock Forums](https://hypixel.net/categories/194/) and [Discord Server](https://discord.gg/hypixel)
