@@ -42,7 +42,7 @@
             "options": [
               {
                 "value": "skyblock_legacy:legacy_textures/abiphone",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/abiphone"}," ",{"text":"Abiphone"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/abiphone"}," ",{"text":"Abiphone"}],
                 "selected": true
               },
               {
@@ -62,7 +62,7 @@
               },
               {
                 "value": "skyblock_legacy:legacy_textures/bait",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/bait"}," ",{"text":"Bait"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/bait"}," ",{"text":"Bait"}],
                 "selected": true
               },
               {
@@ -102,12 +102,12 @@
               },
               {
                 "value": "skyblock_legacy:legacy_textures/garden_chip",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/garden_chip"}," ",{"text":"Garden Chip"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/garden_chip"}," ",{"text":"Garden Chip"}],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:legacy_textures/gemstone",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/gemstone"}," ",{"text":"Gemstone"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/gemstone"}," ",{"text":"Gemstone"}],
                 "selected": true
               },
               {
@@ -122,12 +122,12 @@
               },
               {
                 "value": "skyblock_legacy:legacy_textures/rod_part",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/rod_part"}," ",{"text":"Rod Part"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/rod_part"}," ",{"text":"Rod Part"}],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:legacy_textures/salt",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/salt"}," ",{"text":"Salt"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/salt"}," ",{"text":"Salt"}],
                 "selected": true
               },
               {
@@ -142,12 +142,12 @@
               },
               {
                 "value": "skyblock_legacy:legacy_textures/trap",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/trap"}," ",{"text":"Trap"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/trap"}," ",{"text":"Trap"}],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:legacy_textures/trophy",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/trophy"}," ",{"text":"Trophy"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/trophy"}," ",{"text":"Trophy"}],
                 "selected": true
               },
               {
@@ -162,7 +162,7 @@
               },
               {
                 "value": "skyblock_legacy:legacy_textures/watering_can",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:item/category/watering_can"}," ",{"text":"Watering Can"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/watering_can"}," ",{"text":"Watering Can"}],
                 "selected": true
               },
               {
