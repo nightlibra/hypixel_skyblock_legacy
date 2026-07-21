@@ -31,7 +31,7 @@
               {"text":" • ", "color":"dark_gray"},
               {"text":"GitHub", "color":"blue", "hover_event":{"action":"show_text", "value":[{"text":"Click to view on GitHub", "color":"yellow"},"\n",{"text":"https://github.com/nightlibra/hypixel_skyblock_legacy", "color":"gray"}]}, "click_event":{"action":"open_url", "url":"https://github.com/nightlibra/hypixel_skyblock_legacy"}},
               {"text":" • ", "color":"dark_gray"},
-              {"text":"Discord", "color":"blue", "hover_event":{"action":"show_text", "value":[{"text":"Click to join the discord", "color":"yellow"},"\n",{"text":"https://discord.gg/M7HqWKxDxS", "color":"gray"}]}, "click_event":{"action":"open_url", "url":"https://discord.gg/M7HqWKxDxS"}}
+              {"text":"Discord", "color":"blue", "hover_event":{"action":"show_text", "value":[{"text":"Click to join the Discord", "color":"yellow"},"\n",{"text":"https://discord.gg/M7HqWKxDxS", "color":"gray"}]}, "click_event":{"action":"open_url", "url":"https://discord.gg/M7HqWKxDxS"}}
             ]
           },
           {
