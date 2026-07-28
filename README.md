@@ -14,6 +14,7 @@ This is a resource pack to revert [Hypixel SkyBlock](https://wiki.hypixel.net/In
 | Vanilla Tooltips | Use the vanilla Minecraft tooltip textures | On | Yes |
 | Vanilla Font | Use the vanilla Minecraft font glyphs | Off | Yes |
 | Remove Shortbow Drawback | Remove the drawback animation on shortbows | Off | No |
+| 1.8.9 Head Model | Use the Minecraft 1.8.9 head model. | Off | No |
 
 # More Information
 
