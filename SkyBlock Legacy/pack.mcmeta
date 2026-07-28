@@ -46,6 +46,11 @@
                 "selected": true
               },
               {
+                "value": "skyblock_legacy:legacy_textures/accessory",
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/accessory"}," ",{"text":"Accessory"}],
+                "selected": true
+              },
+              {
                 "value": "skyblock_legacy:legacy_textures/arrow",
                 "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/arrow"}," ",{"text":"Arrow"}],
                 "selected": true
@@ -233,15 +238,6 @@
   "fabric:overlays": {
     "entries": [
       {
-        "directory": "legacy_axe",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "skyblock_legacy",
-          "id": "skyblock_legacy:legacy_textures",
-          "value": "skyblock_legacy:legacy_textures/axe"
-        }
-      },
-      {
         "directory": "legacy_abiphone",
         "condition": {
           "condition": "catharsis:config",
@@ -269,6 +265,15 @@
         }
       },
       {
+        "directory": "legacy_axe",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/axe"
+        }
+      },
+      {
         "directory": "legacy_bait",
         "condition": {
           "condition": "catharsis:config",
@@ -284,15 +289,6 @@
           "pack": "skyblock_legacy",
           "id": "skyblock_legacy:legacy_textures",
           "value": "skyblock_legacy:legacy_textures/bow"
-        }
-      },
-      {
-        "directory": "legacy_capsule",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "skyblock_legacy",
-          "id": "skyblock_legacy:legacy_textures",
-          "value": "skyblock_legacy:legacy_textures/capsule"
         }
       },
       {
@@ -383,15 +379,6 @@
           "pack": "skyblock_legacy",
           "id": "skyblock_legacy:legacy_textures",
           "value": "skyblock_legacy:legacy_textures/lasso"
-        }
-      },
-      {
-        "directory": "legacy_pet_item",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "skyblock_legacy",
-          "id": "skyblock_legacy:legacy_textures",
-          "value": "skyblock_legacy:legacy_textures/pet_item"
         }
       },
       {
