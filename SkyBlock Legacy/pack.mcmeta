@@ -229,6 +229,13 @@
             "title": "Remove Shortbow Drawback",
             "description": [{"text":"Remove the shortbow drawback animation.", "color":"gray"}],
             "default": false
+          },
+          {
+            "type": "boolean",
+            "id": "skyblock_legacy:old_head_model",
+            "title": "1.8.9 Head Model",
+            "description": [{"text":"Use the Minecraft 1.8.9 head model.", "color":"gray"}],
+            "default": false
           }
         ]
       }
@@ -573,6 +580,14 @@
           "condition": "catharsis:config",
           "pack": "skyblock_legacy",
           "id": "skyblock_legacy:vanilla_font"
+        }
+      },
+      {
+        "directory": "old_head_model",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:old_head_model"
         }
       }
     ]
