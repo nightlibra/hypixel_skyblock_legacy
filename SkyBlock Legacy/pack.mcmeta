@@ -71,6 +71,11 @@
                 "selected": true
               },
               {
+                "value": "skyblock_legacy:legacy_textures/capsule",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:icon/capsule"}," ",{"text":"Capsule"}],
+                "selected": true
+              },
+              {
                 "value": "skyblock_legacy:legacy_textures/chisel",
                 "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/armor_stand"}," ",{"text":"Chisel"}],
                 "selected": true
@@ -118,6 +123,11 @@
               {
                 "value": "skyblock_legacy:legacy_textures/lasso",
                 "text": [{"atlas":"minecraft:items", "sprite":"minecraft:item/lead"}," ",{"text":"Lasso"}],
+                "selected": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_textures/pet_item",
+                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:icon/pet_item"}," ",{"text":"Pet Item"}],
                 "selected": true
               },
               {
@@ -277,6 +287,15 @@
         }
       },
       {
+        "directory": "legacy_capsule",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/capsule"
+        }
+      },
+      {
         "directory": "legacy_chisel",
         "condition": {
           "condition": "catharsis:config",
@@ -364,6 +383,15 @@
           "pack": "skyblock_legacy",
           "id": "skyblock_legacy:legacy_textures",
           "value": "skyblock_legacy:legacy_textures/lasso"
+        }
+      },
+      {
+        "directory": "legacy_pet_item",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_textures",
+          "value": "skyblock_legacy:legacy_textures/pet_item"
         }
       },
       {
