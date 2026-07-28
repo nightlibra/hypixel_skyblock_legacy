@@ -72,7 +72,7 @@
               },
               {
                 "value": "skyblock_legacy:legacy_textures/capsule",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:icon/capsule"}," ",{"text":"Capsule"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/capsule"}," ",{"text":"Capsule"}],
                 "selected": true
               },
               {
@@ -92,7 +92,7 @@
               },
               {
                 "value": "skyblock_legacy:legacy_textures/equipment",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:icon/equipment"}," ",{"text":"Equipment"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/equipment"}," ",{"text":"Equipment"}],
                 "selected": true
               },
               {
@@ -127,7 +127,7 @@
               },
               {
                 "value": "skyblock_legacy:legacy_textures/pet_item",
-                "text": [{"atlas":"minecraft:items", "sprite":"skyblock_legacy:icon/pet_item"}," ",{"text":"Pet Item"}],
+                "text": [{"atlas":"minecraft:gui", "sprite":"skyblock_legacy:icon/pet_item"}," ",{"text":"Pet Item"}],
                 "selected": true
               },
               {
