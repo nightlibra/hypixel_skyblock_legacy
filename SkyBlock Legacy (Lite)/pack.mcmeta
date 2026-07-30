@@ -2,11 +2,23 @@
   "pack": {
     "min_format": [75, 0],
     "max_format": [88, 0],
-    "description": ["The original Hypixel SkyBlock textures",{"text":" -nightlibra","color":"dark_gray"}]
+    "description": ["The original Hypixel SkyBlock art direction",{"text":" -nightlibra","color":"dark_gray"}]
+  },
+
+  "meta": {
+    "version": ["v1.2.0", "mc:1.21.11+"],
+    "discord": "https://discord.gg/M7HqWKxDxS",
+    "modrinth": "https://modrinth.com/resourcepack/hypixel-skyblock-legacy",
+    "github": "https://github.com/nightlibra/hypixel_skyblock_legacy"
   },
 
   "overlays": {
     "entries": [
+      {
+        "directory": "legacy",
+        "min_format": [75, 0],
+        "max_format": [88, 0]
+      },
       {
         "directory": "vanilla_colors",
         "min_format": [75, 0],
@@ -23,10 +35,5 @@
         "max_format": [88, 0]
       }
     ]
-  },
-
-  "meta": {
-    "version": ["v1.2.0", "mc:1.21.11+"],
-    "discord": "https://discord.gg/M7HqWKxDxS"
   }
 }
