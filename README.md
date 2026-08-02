@@ -1,7 +1,7 @@
 # Hypixel SkyBlock Legacy
 A continuation of the legacy Hypixel SkyBlock art direction.
 
-This resource pack continues the legacy [Hypixel SkyBlock](https://hypixelskyblock.wiki) art direction. With it, SkyBlock items use a mix of vanilla Minecraft textures and custom player head art. If you just want the original textures without any additions, see [Hypixel SkyBlock Classic](https://modrinth.com/resourcepack/hypixel-skyblock-classic).
+This resource pack continues the legacy [Hypixel SkyBlock](https://hypixelskyblock.wiki) art direction. With it, SkyBlock items use a mix of vanilla Minecraft textures and custom player head art. If you just want the original textures without any additions, see [Hypixel SkyBlock Classic](https://github.com/nightlibra/hypixel_skyblock_classic).
 
 ## Dependencies
 **SkyBlock Legacy** depends upon the [Catharsis](<https://modrinth.com/mod/catharsis>) mod to provide configuration options and to allow moving this or any other resource pack above Hypixel's server-enforced resource pack. If you do not use Catharsis or prefer to use a different mod, such as [Server Pack Unlocker](<https://modrinth.com/mod/server-pack-unlocker>), then you can use **SkyBlock Legacy Lite** instead, which is vanilla-compatible and does not require any specific mods to work.
