@@ -21,7 +21,7 @@ This resource pack continues the legacy [Hypixel SkyBlock](https://hypixelskyblo
 The **Reimagined** style replaces various items with modern Minecraft textures to better match their depictions in the official resource pack, to be more visually distinct, or if its a better thematic fit.
 
 ## Project Links
-[![Discord](https://img.shields.io/discord/820040160402079774?style=plastic&logo=discord&logoColor=ffffff&label=Discord&color=7289da)](https://discord.gg/M7HqWKxDxS) [![Modrinth Downloads](https://img.shields.io/modrinth/dt/eiWiefXD?style=plastic&logo=modrinth&label=Modrinth%20Downloads)](https://modrinth.com/resourcepack/hypixel-skyblock-legacy) [![Static Badge](https://img.shields.io/badge/GitHub-Repository-blue?style=plastic&logo=github)](https://github.com/nightlibra/hypixel_skyblock_legacy) [![Static Badge](https://img.shields.io/badge/Hypixel_Thread-gray?style=plastic)
+[![Discord](https://img.shields.io/discord/820040160402079774?style=plastic&logo=discord&logoColor=ffffff&label=Discord&color=7289da)](https://discord.gg/M7HqWKxDxS) [![Modrinth Downloads](https://img.shields.io/modrinth/dt/eiWiefXD?style=plastic&logo=modrinth&label=Modrinth%20Downloads)](https://modrinth.com/resourcepack/hypixel-skyblock-legacy) [![GitHub Repo](https://img.shields.io/badge/GitHub-Repository-blue?style=plastic&logo=github)](https://github.com/nightlibra/hypixel_skyblock_legacy) [![Hypixel Forums](https://img.shields.io/badge/Hypixel_Thread-gray?style=plastic)
 ](https://hypixel.net/threads/6115320/)
 
 # More Information
