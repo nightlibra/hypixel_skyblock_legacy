@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "skyblock_legacy:gui/sprites/logo/modrinth.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["A"]
+        },
+        {
+            "type": "bitmap",
+            "file": "skyblock_legacy:gui/sprites/logo/en_ud/modrinth.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["ɐ"]
+        }
+    ]
+}

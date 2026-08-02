@@ -1,0 +1,80 @@
+{
+  "model": {
+    "type": "condition",
+    "property": "component",
+    "predicate": "custom_data",
+    "value": "{upgraded_rarity:COMMON}",
+    "on_true": {
+      "type": "special",
+      "base": "minecraft:item/template_skull",
+      "model": {"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:equipment/safari_belt_common"},
+      "transformation": {"left_rotation":[1,0,0,-0],"right_rotation":[0,0,0,1],"scale":[1,1,1],"translation":[0.5,0,0.5]}
+    },
+    "on_false": {
+      "type": "condition",
+      "property": "component",
+      "predicate": "custom_data",
+      "value": "{upgraded_rarity:UNCOMMON}",
+      "on_true": {
+        "type": "special",
+        "base": "minecraft:item/template_skull",
+        "model": {"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:equipment/safari_belt_uncommon"},
+        "transformation": {"left_rotation":[1,0,0,-0],"right_rotation":[0,0,0,1],"scale":[1,1,1],"translation":[0.5,0,0.5]}
+      },
+      "on_false": {
+        "type": "condition",
+        "property": "component",
+        "predicate": "custom_data",
+        "value": "{upgraded_rarity:RARE}",
+        "on_true": {
+          "type": "special",
+          "base": "minecraft:item/template_skull",
+          "model": {"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:equipment/safari_belt_rare"},
+          "transformation": {"left_rotation":[1,0,0,-0],"right_rotation":[0,0,0,1],"scale":[1,1,1],"translation":[0.5,0,0.5]}
+        },
+        "on_false": {
+          "type": "condition",
+          "property": "component",
+          "predicate": "custom_data",
+          "value": "{upgraded_rarity:EPIC}",
+          "on_true": {
+            "type": "special",
+            "base": "minecraft:item/template_skull",
+            "model": {"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:equipment/safari_belt_epic"},
+            "transformation": {"left_rotation":[1,0,0,-0],"right_rotation":[0,0,0,1],"scale":[1,1,1],"translation":[0.5,0,0.5]}
+          },
+          "on_false": {
+            "type": "condition",
+            "property": "component",
+            "predicate": "custom_data",
+            "value": "{upgraded_rarity:LEGENDARY}",
+            "on_true": {
+              "type": "special",
+              "base": "minecraft:item/template_skull",
+              "model": {"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:equipment/safari_belt_legendary"},
+              "transformation": {"left_rotation":[1,0,0,-0],"right_rotation":[0,0,0,1],"scale":[1,1,1],"translation":[0.5,0,0.5]}
+            },
+            "on_false": {
+              "type": "condition",
+              "property": "component",
+              "predicate": "custom_data",
+              "value": "{upgraded_rarity:MYTHIC}",
+              "on_true": {
+                "type": "special",
+                "base": "minecraft:item/template_skull",
+                "model": {"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:equipment/safari_belt_mythic"},
+                "transformation": {"left_rotation":[1,0,0,-0],"right_rotation":[0,0,0,1],"scale":[1,1,1],"translation":[0.5,0,0.5]}
+              },
+              "on_false": {
+                "type": "special",
+                "base": "minecraft:item/template_skull",
+                "model": {"type":"minecraft:head","kind":"player","texture":"hypixel_skyblock:equipment/safari_belt_common"},
+                "transformation": {"left_rotation":[1,0,0,-0],"right_rotation":[0,0,0,1],"scale":[1,1,1],"translation":[0.5,0,0.5]}
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

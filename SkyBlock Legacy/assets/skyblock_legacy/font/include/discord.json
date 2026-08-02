@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "skyblock_legacy:gui/sprites/logo/discord.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["C"]
+        },
+        {
+            "type": "bitmap",
+            "file": "skyblock_legacy:gui/sprites/logo/en_ud/discord.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["ɔ"]
+        }
+    ]
+}

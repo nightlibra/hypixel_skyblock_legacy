@@ -1,0 +1,24 @@
+# Development
+- nightlibra
+
+# Maintenance
+- nightlibra
+- chndrh
+
+# Art
+- Hypixel SkyBlock | https://hypixel.net
+- chndrh
+- Portoss
+
+# Assets
+- Hypixel logo | https://hypixel.net/styles/hypixel-v2/images/header-logo.png
+- Modrinth logo | https://github.com/gabrielvicenteYT/modrinth-icons
+- GitHub logo | https://brand.github.com/foundations/logo
+- Discord logo | https://discord.com/branding
+- country flags | https://symbl.cc (Twemoji)
+
+# Translations
+- ReyMaratov
+- Kelsaiky
+- Portoss
+- Stuffy

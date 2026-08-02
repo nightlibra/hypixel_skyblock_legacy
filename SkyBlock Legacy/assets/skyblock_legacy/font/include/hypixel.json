@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "skyblock_legacy:gui/sprites/logo/hypixel.png",
+            "ascent": 18,
+            "height": 32,
+            "chars": ["D"]
+        },
+        {
+            "type": "bitmap",
+            "file": "skyblock_legacy:gui/sprites/logo/en_ud/hypixel.png",
+            "ascent": 18,
+            "height": 32,
+            "chars": ["p"]
+        }
+    ]
+}

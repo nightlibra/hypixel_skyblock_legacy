@@ -1,0 +1,18 @@
+{
+    "providers": [
+        {
+            "type": "bitmap",
+            "file": "skyblock_legacy:gui/sprites/logo/github.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["B"]
+        },
+        {
+            "type": "bitmap",
+            "file": "skyblock_legacy:gui/sprites/logo/en_ud/github.png",
+            "ascent": 8,
+            "height": 10,
+            "chars": ["q"]
+        }
+    ]
+}

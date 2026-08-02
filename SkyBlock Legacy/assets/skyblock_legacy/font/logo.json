@@ -1,0 +1,20 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "skyblock_legacy:include/modrinth"
+        },
+        {
+            "type": "reference",
+            "id": "skyblock_legacy:include/github"
+        },
+        {
+            "type": "reference",
+            "id": "skyblock_legacy:include/discord"
+        },
+        {
+            "type": "reference",
+            "id": "skyblock_legacy:include/hypixel"
+        }
+    ]
+}
