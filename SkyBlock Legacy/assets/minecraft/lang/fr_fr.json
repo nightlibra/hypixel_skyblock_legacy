@@ -1,9 +1,9 @@
 {
 	"skyblock_legacy.title": "SkyBlock Legacy",
-	"skyblock_legacy.description": "La direction artistique original de Hypixel Skyblock - %s",
+	"skyblock_legacy.description": "La direction artistique originale de Hypixel Skyblock - %s",
 
 	"skyblock_legacy.category.1": "Options Vanilla",
-	"skyblock_legacy.category.2": "Options Suplémentaire",
+	"skyblock_legacy.category.2": "Options Suplémentaires",
 	"skyblock_legacy.contribution": "Contributeurs",
 	"skyblock_legacy.contribution.maintainers": "Mainteneurs",
 	"skyblock_legacy.contribution.artists": "Artistes",
@@ -22,9 +22,9 @@
 
 	"skyblock_legacy.config.style.name": "Style du Pack de Resource",
 	"skyblock_legacy.config.style.classic.name": "Classic",
-	"skyblock_legacy.config.style.classic.desc": "Utilise les textures original seulement.",
+	"skyblock_legacy.config.style.classic.desc": "Utilise les textures originales seulement.",
 	"skyblock_legacy.config.style.reimagined.name": "Reimagined",
-	"skyblock_legacy.config.style.reimagined.desc": "Utilise des textures moderne pour certains objets.",
+	"skyblock_legacy.config.style.reimagined.desc": "Utilise des textures modernes pour certains objets.",
 	"skyblock_legacy.config.category.name": "Catégorie d'Objet",
 	"skyblock_legacy.config.category.desc": "Sélection des catégories d'objets à retexturer.",
 	"skyblock_legacy.config.category.abiphone": "Abiphone",
