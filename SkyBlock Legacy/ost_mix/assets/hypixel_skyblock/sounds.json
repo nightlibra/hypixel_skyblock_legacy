@@ -1,0 +1,10 @@
+{
+  "music.moonglade_marsh": {
+    "replace": false,
+    "sounds": [
+      {
+        "name": "hypixel_skyblock:music/a_silent_momoir"
+      }
+    ]
+  }
+}

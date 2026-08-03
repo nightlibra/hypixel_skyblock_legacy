@@ -254,6 +254,31 @@
             "description": ""
           },
           {
+            "type": "dropdown",
+            "id": "skyblock_legacy:legacy_ost",
+            "title": {"translate":"skyblock_legacy.config.legacy_ost.name","fallback":"Legacy Soundtracks"},
+            "descriptions": {
+              "skyblock_legacy:legacy_ost/off": {"translate":"skyblock_legacy.config.legacy_ost.desc","fallback":"Return legacy soundtracks.","color":"gray"},
+              "skyblock_legacy:legacy_ost/mix": {"translate":"skyblock_legacy.config.legacy_ost.mix.desc","fallback":"Include both legacy & modern tracks.","color":"gray"},
+              "skyblock_legacy:legacy_ost/replace": {"translate":"skyblock_legacy.config.legacy_ost.replace.desc","fallback":"Legacy tracks replace modern tracks.","color":"gray"}
+            },
+            "options": [
+              {
+                "value": "skyblock_legacy:legacy_ost/off",
+                "text": {"translate":"options.off"},
+                "default": true
+              },
+              {
+                "value": "skyblock_legacy:legacy_ost/mix",
+                "text": {"translate":"skyblock_legacy.config.legacy_ost.mix.name","fallback":"Mix"}
+              },
+              {
+                "value": "skyblock_legacy:legacy_ost/replace",
+                "text": {"translate":"skyblock_legacy.config.legacy_ost.replace.name","fallback":"Replace"}
+              }
+            ]
+          },
+          {
             "type": "boolean",
             "id": "skyblock_legacy:no_shortbow_drawback",
             "title": {"translate":"skyblock_legacy.config.no_shortbow_drawback.name","fallback":"Remove Shortbow Drawback"},
@@ -776,6 +801,24 @@
               "value": "skyblock_legacy:style/reimagined"
             }
           ]
+        }
+      },
+      {
+        "directory": "ost_mix",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_ost",
+          "value": "skyblock_legacy:legacy_ost/mix"
+        }
+      },
+      {
+        "directory": "ost_replace",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:legacy_ost",
+          "value": "skyblock_legacy:legacy_ost/replace"
         }
       },
       {

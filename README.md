@@ -14,6 +14,7 @@ This resource pack continues the legacy [Hypixel SkyBlock](https://hypixelskyblo
 | Vanilla Colors | Use the vanilla Minecraft text colors | On | Yes |
 | Vanilla Tooltips | Use the vanilla Minecraft tooltip textures | On | Yes |
 | Vanilla Font | Use the vanilla Minecraft font glyphs | Off | Yes |
+| Legacy Soundtracks | Return legacy soundtracks. | Off | Yes |
 | Remove Shortbow Drawback | Remove the drawback animation on shortbows | Off | No |
 | 1.8.9 Head Model | Use the Minecraft 1.8.9 head model. | Off | No |
 
