@@ -1,0 +1,12 @@
+{
+    "providers": [
+        {
+            "type": "reference",
+            "id": "hypixel_skyblock:include/default"
+        },
+        {
+            "type": "reference",
+            "id": "hypixel_skyblock:include/unifont"
+        }
+    ]
+}
