@@ -2,7 +2,11 @@
   "pack": {
     "min_format": [75, 0],
     "max_format": [88, 0],
-    "description": {"translate":"skyblock_legacy.description","fallback":"The original Hypixel SkyBlock art direction - %s","with":[{"text":"nightlibra","color":"dark_gray"}]}
+    "description": {
+      "translate": "skyblock_legacy.description",
+      "fallback": "The original Hypixel SkyBlock art direction - %s",
+      "with": [{ "text": "nightlibra", "color": "dark_gray" }]
+    }
   },
 
   "meta": {
@@ -15,372 +19,805 @@
   "catharsis:pack/v1": {
     "id": "skyblock_legacy",
     "version": "v2.0.1",
-    "dependencies": {"catharsis": ">=1.0.0-beta.5"},
+    "dependencies": { "catharsis": ">=1.0.0-beta.5" },
     "config": [
       {
         "type": "tab",
-        "title": {"translate":"skyblock_legacy.title","fallback":"SkyBlock Legacy"},
+        "title": { "translate": "skyblock_legacy.title", "fallback": "SkyBlock Legacy" },
         "options": [
           {
             "type": "separator",
-            "title": {"translate":"skyblock_legacy.technical.1","fallback":"%s by %s","with":[{"translate":"skyblock_legacy.title","fallback":"SkyBlock Legacy","color":"gold"},[{"player":{"id":[-1364134607,-750761016,-1398478805,842316956]},"color":"#FFFFFF"}," ",{"text":"nightlibra","color":"aqua"}]]},
+            "title": {
+              "translate": "skyblock_legacy.technical.1",
+              "fallback": "%s by %s",
+              "with": [
+                { "translate": "skyblock_legacy.title", "fallback": "SkyBlock Legacy", "color": "gold" },
+                [
+                  { "player": { "id": [-1364134607, -750761016, -1398478805, 842316956] }, "color": "#FFFFFF" },
+                  " ",
+                  { "text": "nightlibra", "color": "aqua" }
+                ]
+              ]
+            },
             "description": {
-              "translate":"skyblock_legacy.technical.2","fallback":"%s | %s • %s • %s","color":"dark_gray",
-              "with":[
-                {"fallback":"v2.0.1","translate":"skyblock_legacy.version","color":"gray"},
-                {"translate":"skyblock_legacy.technical.en_ud.1","fallback":"A","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_view","fallback":"Click to view on %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.modrinth","fallback":"Modrinth"},{"text":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy"}},
-                {"translate":"skyblock_legacy.technical.en_ud.2","fallback":"B","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_view","fallback":"Click to view on %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.github","fallback":"GitHub"},{"text":"https://github.com/nightlibra/hypixel_skyblock_legacy","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://github.com/nightlibra/hypixel_skyblock_legacy"}},
-                {"translate":"skyblock_legacy.technical.en_ud.3","fallback":"C","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_join","fallback":"Click to join the %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.discord","fallback":"Discord"},{"text":"https://discord.gg/M7HqWKxDxS","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://discord.gg/M7HqWKxDxS"}}
+              "translate": "skyblock_legacy.technical.2",
+              "fallback": "%s | %s • %s • %s",
+              "color": "dark_gray",
+              "with": [
+                { "fallback": "v2.0.1", "translate": "skyblock_legacy.version", "color": "gray" },
+                {
+                  "translate": "skyblock_legacy.technical.en_ud.1",
+                  "fallback": "A",
+                  "font": "skyblock_legacy:logo",
+                  "color": "#FFFFFF",
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "translate": "skyblock_legacy.action.click_to_view",
+                      "fallback": "Click to view on %s\n%s",
+                      "color": "yellow",
+                      "with": [
+                        { "translate": "skyblock_legacy.social.modrinth", "fallback": "Modrinth" },
+                        { "text": "https://modrinth.com/resourcepack/hypixel-skyblock-legacy", "color": "gray" }
+                      ]
+                    }
+                  },
+                  "click_event": {
+                    "action": "open_url",
+                    "url": "https://modrinth.com/resourcepack/hypixel-skyblock-legacy"
+                  }
+                },
+                {
+                  "translate": "skyblock_legacy.technical.en_ud.2",
+                  "fallback": "B",
+                  "font": "skyblock_legacy:logo",
+                  "color": "#FFFFFF",
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "translate": "skyblock_legacy.action.click_to_view",
+                      "fallback": "Click to view on %s\n%s",
+                      "color": "yellow",
+                      "with": [
+                        { "translate": "skyblock_legacy.social.github", "fallback": "GitHub" },
+                        { "text": "https://github.com/nightlibra/hypixel_skyblock_legacy", "color": "gray" }
+                      ]
+                    }
+                  },
+                  "click_event": {
+                    "action": "open_url",
+                    "url": "https://github.com/nightlibra/hypixel_skyblock_legacy"
+                  }
+                },
+                {
+                  "translate": "skyblock_legacy.technical.en_ud.3",
+                  "fallback": "C",
+                  "font": "skyblock_legacy:logo",
+                  "color": "#FFFFFF",
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "translate": "skyblock_legacy.action.click_to_join",
+                      "fallback": "Click to join the %s\n%s",
+                      "color": "yellow",
+                      "with": [
+                        { "translate": "skyblock_legacy.social.discord", "fallback": "Discord" },
+                        { "text": "https://discord.gg/M7HqWKxDxS", "color": "gray" }
+                      ]
+                    }
+                  },
+                  "click_event": { "action": "open_url", "url": "https://discord.gg/M7HqWKxDxS" }
+                }
               ]
             }
           },
           {
             "type": "dropdown",
             "id": "skyblock_legacy:style",
-            "title": {"translate":"skyblock_legacy.config.style.name","fallback":"Resource Pack Style"},
+            "title": { "translate": "skyblock_legacy.config.style.name", "fallback": "Resource Pack Style" },
             "descriptions": {
-              "skyblock_legacy:style/classic": {"translate":"skyblock_legacy.config.style.classic.desc","fallback":"Use original textures only.","color":"gray"},
-              "skyblock_legacy:style/reimagined": {"translate":"skyblock_legacy.config.style.reimagined.desc","fallback":"Use modern textures for some items.","color":"gray"}
+              "skyblock_legacy:style/classic": {
+                "translate": "skyblock_legacy.config.style.classic.desc",
+                "fallback": "Use original textures only.",
+                "color": "gray"
+              },
+              "skyblock_legacy:style/reimagined": {
+                "translate": "skyblock_legacy.config.style.reimagined.desc",
+                "fallback": "Use modern textures for some items.",
+                "color": "gray"
+              }
             },
             "options": [
               {
                 "value": "skyblock_legacy:style/classic",
-                "text": {"translate":"skyblock_legacy.config.style.classic.name","fallback":"Classic"},
+                "text": { "translate": "skyblock_legacy.config.style.classic.name", "fallback": "Classic" },
                 "default": true
               },
               {
                 "value": "skyblock_legacy:style/reimagined",
-                "text": {"translate":"skyblock_legacy.config.style.reimagined.name","fallback":"Reimagined"}
+                "text": { "translate": "skyblock_legacy.config.style.reimagined.name", "fallback": "Reimagined" }
               }
             ]
           },
           {
             "type": "select",
             "id": "skyblock_legacy:category",
-            "title": {"translate":"skyblock_legacy.config.category.name","fallback":"Item Categories"},
-            "description": {"translate":"skyblock_legacy.config.category.desc","fallback":"Choose item categories to retexture.","color":"gray"},
+            "title": { "translate": "skyblock_legacy.config.category.name", "fallback": "Item Categories" },
+            "description": {
+              "translate": "skyblock_legacy.config.category.desc",
+              "fallback": "Choose item categories to retexture.",
+              "color": "gray"
+            },
             "options": [
               {
                 "value": "skyblock_legacy:category/abiphone",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/abiphone"}," ",{"translate":"skyblock_legacy.config.category.abiphone","fallback":"Abiphone"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/abiphone" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.abiphone", "fallback": "Abiphone" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/accessory",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/accessory"}," ",{"translate":"skyblock_legacy.config.category.accessory","fallback":"Accessory"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/accessory" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.accessory", "fallback": "Accessory" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/arrow",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/arrow"}," ",{"translate":"skyblock_legacy.config.category.arrow","fallback":"Arrow"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/arrow" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.arrow", "fallback": "Arrow" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/arrow_poison",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/lime_dye"}," ",{"translate":"skyblock_legacy.config.category.arrow_poison","fallback":"Arrow Poison"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/lime_dye" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.arrow_poison", "fallback": "Arrow Poison" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/axe",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/diamond_axe"}," ",{"translate":"skyblock_legacy.config.category.axe","fallback":"Axe"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/diamond_axe" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.axe", "fallback": "Axe" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/bait",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/bait"}," ",{"translate":"skyblock_legacy.config.category.bait","fallback":"Bait"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/bait" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.bait", "fallback": "Bait" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/booster",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/booster"}," ",{"translate":"skyblock_legacy.config.category.booster","fallback":"Booster"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/booster" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.booster", "fallback": "Booster" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/bow",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/bow"}," ",{"translate":"skyblock_legacy.config.category.bow","fallback":"Bow"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/bow" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.bow", "fallback": "Bow" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/capsule",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/capsule"}," ",{"translate":"skyblock_legacy.config.category.capsule","fallback":"Capsule"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/capsule" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.capsule", "fallback": "Capsule" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/chisel",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/armor_stand"}," ",{"translate":"skyblock_legacy.config.category.chisel","fallback":"Chisel"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/armor_stand" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.chisel", "fallback": "Chisel" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/drill",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/prismarine_shard"}," ",{"translate":"skyblock_legacy.config.category.drill","fallback":"Drill"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/prismarine_shard" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.drill", "fallback": "Drill" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/dwarven_metal",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/prismarine_crystals"}," ",{"translate":"skyblock_legacy.config.category.dwarven_metal","fallback":"Dwarven Metal"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/prismarine_crystals" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.dwarven_metal", "fallback": "Dwarven Metal" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/equipment",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/equipment"}," ",{"translate":"skyblock_legacy.config.category.equipment","fallback":"Equipment"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/equipment" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.equipment", "fallback": "Equipment" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/farming_tool",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/diamond_hoe"}," ",{"translate":"skyblock_legacy.config.category.farming_tool","fallback":"Farming Tool"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/diamond_hoe" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.farming_tool", "fallback": "Farming Tool" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/fishing_net",
-                "text": [{"atlas":"minecraft:blocks","sprite":"minecraft:block/cobweb"}," ",{"translate":"skyblock_legacy.config.category.fishing_net","fallback":"Fishing Net"}],
+                "text": [
+                  { "atlas": "minecraft:blocks", "sprite": "minecraft:block/cobweb" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.fishing_net", "fallback": "Fishing Net" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/fishing_rod",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/fishing_rod"}," ",{"translate":"skyblock_legacy.config.category.fishing_rod","fallback":"Fishing Rod"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/fishing_rod" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.fishing_rod", "fallback": "Fishing Rod" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/garden_chip",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/garden_chip"}," ",{"translate":"skyblock_legacy.config.category.garden_chip","fallback":"Garden Chip"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/garden_chip" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.garden_chip", "fallback": "Garden Chip" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/gemstone",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/gemstone"}," ",{"translate":"skyblock_legacy.config.category.gemstone","fallback":"Gemstone"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/gemstone" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.gemstone", "fallback": "Gemstone" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/lasso",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/lead"}," ",{"translate":"skyblock_legacy.config.category.lasso","fallback":"Lasso"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/lead" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.lasso", "fallback": "Lasso" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/pet_item",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/pet_item"}," ",{"translate":"skyblock_legacy.config.category.pet_item","fallback":"Pet Item"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/pet_item" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.pet_item", "fallback": "Pet Item" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/pickaxe",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/diamond_pickaxe"}," ",{"translate":"skyblock_legacy.config.category.pickaxe","fallback":"Pickaxe"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/diamond_pickaxe" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.pickaxe", "fallback": "Pickaxe" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/reforge_stone",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/reforge_stone"}," ",{"translate":"skyblock_legacy.config.category.reforge_stone","fallback":"Reforge Stone"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/reforge_stone" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.reforge_stone", "fallback": "Reforge Stone" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/rod_part",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/rod_part"}," ",{"translate":"skyblock_legacy.config.category.rod_part","fallback":"Rod Part"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/rod_part" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.rod_part", "fallback": "Rod Part" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/salt",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/salt"}," ",{"translate":"skyblock_legacy.config.category.salt","fallback":"Salt"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/salt" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.salt", "fallback": "Salt" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/shovel",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/diamond_shovel"}," ",{"translate":"skyblock_legacy.config.category.shovel","fallback":"Shovel"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/diamond_shovel" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.shovel", "fallback": "Shovel" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/sword",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/diamond_sword"}," ",{"translate":"skyblock_legacy.config.category.sword","fallback":"Sword"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/diamond_sword" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.sword", "fallback": "Sword" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/trap",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/trap"}," ",{"translate":"skyblock_legacy.config.category.trap","fallback":"Trap"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/trap" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.trap", "fallback": "Trap" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/trophy",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/trophy"}," ",{"translate":"skyblock_legacy.config.category.trophy","fallback":"Trophy"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/trophy" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.trophy", "fallback": "Trophy" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/vacuum",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/minecart"}," ",{"translate":"skyblock_legacy.config.category.vacuum","fallback":"Vacuum"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/minecart" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.vacuum", "fallback": "Vacuum" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/wand",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/stick"}," ",{"translate":"skyblock_legacy.config.category.wand","fallback":"Wand"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/stick" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.wand", "fallback": "Wand" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/watering_can",
-                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/watering_can"}," ",{"translate":"skyblock_legacy.config.category.watering_can","fallback":"Watering Can"}],
+                "text": [
+                  { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:icon/watering_can" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.watering_can", "fallback": "Watering Can" }
+                ],
                 "selected": true
               },
               {
                 "value": "skyblock_legacy:category/uncategorized",
-                "text": [{"atlas":"minecraft:items","sprite":"minecraft:item/nether_star"}," ",{"translate":"skyblock_legacy.config.category.uncategorized","fallback":"Miscellaneous"}],
+                "text": [
+                  { "atlas": "minecraft:items", "sprite": "minecraft:item/nether_star" },
+                  " ",
+                  { "translate": "skyblock_legacy.config.category.uncategorized", "fallback": "Miscellaneous" }
+                ],
                 "selected": true
               }
             ]
           },
           {
             "type": "separator",
-            "title": {"translate":"skyblock_legacy.category.1","fallback":"Vanilla Options","color":"dark_gray"},
+            "title": { "translate": "skyblock_legacy.category.1", "fallback": "Vanilla Options", "color": "dark_gray" },
             "description": ""
           },
           {
             "type": "boolean",
             "id": "skyblock_legacy:vanilla_colors",
-            "title": {"translate":"skyblock_legacy.config.vanilla_color.name","fallback":"Vanilla Colors"},
-            "description": {"translate":"skyblock_legacy.config.vanilla_color.desc","fallback":"Use vanilla Minecraft colors.","color":"gray"},
+            "title": { "translate": "skyblock_legacy.config.vanilla_color.name", "fallback": "Vanilla Colors" },
+            "description": {
+              "translate": "skyblock_legacy.config.vanilla_color.desc",
+              "fallback": "Use vanilla Minecraft colors.",
+              "color": "gray"
+            },
             "default": true
           },
           {
             "type": "boolean",
             "id": "skyblock_legacy:vanilla_tooltips",
-            "title": {"translate":"skyblock_legacy.config.vanilla_tooltip.name","fallback":"Vanilla Tooltips"},
-            "description": {"translate":"skyblock_legacy.config.vanilla_tooltip.desc","fallback":"Use vanilla Minecraft tooltip textures.","color":"gray"},
+            "title": { "translate": "skyblock_legacy.config.vanilla_tooltip.name", "fallback": "Vanilla Tooltips" },
+            "description": {
+              "translate": "skyblock_legacy.config.vanilla_tooltip.desc",
+              "fallback": "Use vanilla Minecraft tooltip textures.",
+              "color": "gray"
+            },
             "default": true
           },
           {
-            "type": "dropdown",
-            "id": "skyblock_legacy:font",
-            "title": {"translate":"skyblock_legacy.config.font.name","fallback":"Font"},
-            "description": {"translate":"skyblock_legacy.config.font.desc","fallback":"Use the vanilla Minecraft or smooth font glyphs.","color":"gray"},
-            "options": [
-              {
-                "value": "skybock_legacy:font_off",
-                "text": "Off",
-                "default": true
-              },
-              {
-                "value": "skyblock_legacy:vanilla_font",
-                "text": "Vanilla",
-                "default": false 
-              },
-              {
-                "value": "skyblock_legacy:smooth_font",
-                "text": "Smooth",
-                "default": false 
-              }
-            ]
+            "type": "boolean",
+            "id": "skyblock_legacy:vanilla_font",
+            "title": { "translate": "skyblock_legacy.config.vanilla_font.name", "fallback": "Vanilla Font" },
+            "description": {
+              "translate": "skyblock_legacy.config.vanilla_font.desc",
+              "fallback": "Use vanilla Minecraft font glyphs.",
+              "color": "gray"
+            },
+            "default": false
           },
           {
             "type": "separator",
-            "title": {"translate":"skyblock_legacy.category.2","fallback":"More Options","color":"dark_gray"},
+            "title": { "translate": "skyblock_legacy.category.2", "fallback": "More Options", "color": "dark_gray" },
             "description": ""
           },
           {
             "type": "dropdown",
             "id": "skyblock_legacy:legacy_ost",
-            "title": {"translate":"skyblock_legacy.config.legacy_ost.name","fallback":"Legacy Soundtracks"},
+            "title": { "translate": "skyblock_legacy.config.legacy_ost.name", "fallback": "Legacy Soundtracks" },
             "descriptions": {
-              "skyblock_legacy:legacy_ost/off": {"translate":"skyblock_legacy.config.legacy_ost.desc","fallback":"Return legacy soundtracks.","color":"gray"},
-              "skyblock_legacy:legacy_ost/mix": {"translate":"skyblock_legacy.config.legacy_ost.mix.desc","fallback":"Include both legacy & modern tracks.","color":"gray"},
-              "skyblock_legacy:legacy_ost/replace": {"translate":"skyblock_legacy.config.legacy_ost.replace.desc","fallback":"Legacy tracks replace modern tracks.","color":"gray"}
+              "skyblock_legacy:legacy_ost/off": {
+                "translate": "skyblock_legacy.config.legacy_ost.desc",
+                "fallback": "Return legacy soundtracks.",
+                "color": "gray"
+              },
+              "skyblock_legacy:legacy_ost/mix": {
+                "translate": "skyblock_legacy.config.legacy_ost.mix.desc",
+                "fallback": "Include both legacy & modern tracks.",
+                "color": "gray"
+              },
+              "skyblock_legacy:legacy_ost/replace": {
+                "translate": "skyblock_legacy.config.legacy_ost.replace.desc",
+                "fallback": "Legacy tracks replace modern tracks.",
+                "color": "gray"
+              }
             },
             "options": [
               {
                 "value": "skyblock_legacy:legacy_ost/off",
-                "text": {"translate":"options.off"},
+                "text": { "translate": "options.off" },
                 "default": true
               },
               {
                 "value": "skyblock_legacy:legacy_ost/mix",
-                "text": {"translate":"skyblock_legacy.config.legacy_ost.mix.name","fallback":"Mix"}
+                "text": { "translate": "skyblock_legacy.config.legacy_ost.mix.name", "fallback": "Mix" }
               },
               {
                 "value": "skyblock_legacy:legacy_ost/replace",
-                "text": {"translate":"skyblock_legacy.config.legacy_ost.replace.name","fallback":"Replace"}
+                "text": { "translate": "skyblock_legacy.config.legacy_ost.replace.name", "fallback": "Replace" }
               }
             ]
           },
           {
             "type": "boolean",
             "id": "skyblock_legacy:no_shortbow_drawback",
-            "title": {"translate":"skyblock_legacy.config.no_shortbow_drawback.name","fallback":"Remove Shortbow Drawback"},
-            "description": {"translate":"skyblock_legacy.config.no_shortbow_drawback.desc","fallback":"Remove the shortbow drawback animation.","color":"gray"},
+            "title": {
+              "translate": "skyblock_legacy.config.no_shortbow_drawback.name",
+              "fallback": "Remove Shortbow Drawback"
+            },
+            "description": {
+              "translate": "skyblock_legacy.config.no_shortbow_drawback.desc",
+              "fallback": "Remove the shortbow drawback animation.",
+              "color": "gray"
+            },
             "default": false
           },
           {
             "type": "boolean",
             "id": "skyblock_legacy:old_head_model",
-            "title": {"translate":"skyblock_legacy.config.old_head_model.name","fallback":"1.8.9 Head Model"},
-            "description": {"translate":"skyblock_legacy.config.old_head_model.desc","fallback":"Use the Minecraft 1.8.9 head model.","color":"gray"},
+            "title": { "translate": "skyblock_legacy.config.old_head_model.name", "fallback": "1.8.9 Head Model" },
+            "description": {
+              "translate": "skyblock_legacy.config.old_head_model.desc",
+              "fallback": "Use the Minecraft 1.8.9 head model.",
+              "color": "gray"
+            },
             "default": false
           }
         ]
       },
       {
         "type": "tab",
-        "title": {"translate":"skyblock_legacy.contribution","fallback":"Contributors"},
+        "title": { "translate": "skyblock_legacy.contribution", "fallback": "Contributors" },
         "options": [
           {
             "type": "separator",
-            "title": {"translate":"skyblock_legacy.technical.1","fallback":"%s by %s","with":[{"translate":"skyblock_legacy.title","fallback":"SkyBlock Legacy","color":"gold"},[{"player":{"id":[-1364134607,-750761016,-1398478805,842316956]},"color":"#FFFFFF"}," ",{"text":"nightlibra","color":"aqua"}]]},
+            "title": {
+              "translate": "skyblock_legacy.technical.1",
+              "fallback": "%s by %s",
+              "with": [
+                { "translate": "skyblock_legacy.title", "fallback": "SkyBlock Legacy", "color": "gold" },
+                [
+                  { "player": { "id": [-1364134607, -750761016, -1398478805, 842316956] }, "color": "#FFFFFF" },
+                  " ",
+                  { "text": "nightlibra", "color": "aqua" }
+                ]
+              ]
+            },
             "description": {
-              "translate":"skyblock_legacy.technical.2","fallback":"%s | %s • %s • %s","color":"dark_gray",
-              "with":[
-                {"fallback":"v2.0.0","translate":"skyblock_legacy.version","color":"gray"},
-                {"translate":"skyblock_legacy.technical.en_ud.1","fallback":"A","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_view","fallback":"Click to view on %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.modrinth","fallback":"Modrinth"},{"text":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy"}},
-                {"translate":"skyblock_legacy.technical.en_ud.2","fallback":"B","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_view","fallback":"Click to view on %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.github","fallback":"GitHub"},{"text":"https://github.com/nightlibra/hypixel_skyblock_legacy","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://github.com/nightlibra/hypixel_skyblock_legacy"}},
-                {"translate":"skyblock_legacy.technical.en_ud.3","fallback":"C","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_join","fallback":"Click to join the %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.discord","fallback":"Discord"},{"text":"https://discord.gg/M7HqWKxDxS","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://discord.gg/M7HqWKxDxS"}}
+              "translate": "skyblock_legacy.technical.2",
+              "fallback": "%s | %s • %s • %s",
+              "color": "dark_gray",
+              "with": [
+                { "fallback": "v2.0.0", "translate": "skyblock_legacy.version", "color": "gray" },
+                {
+                  "translate": "skyblock_legacy.technical.en_ud.1",
+                  "fallback": "A",
+                  "font": "skyblock_legacy:logo",
+                  "color": "#FFFFFF",
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "translate": "skyblock_legacy.action.click_to_view",
+                      "fallback": "Click to view on %s\n%s",
+                      "color": "yellow",
+                      "with": [
+                        { "translate": "skyblock_legacy.social.modrinth", "fallback": "Modrinth" },
+                        { "text": "https://modrinth.com/resourcepack/hypixel-skyblock-legacy", "color": "gray" }
+                      ]
+                    }
+                  },
+                  "click_event": {
+                    "action": "open_url",
+                    "url": "https://modrinth.com/resourcepack/hypixel-skyblock-legacy"
+                  }
+                },
+                {
+                  "translate": "skyblock_legacy.technical.en_ud.2",
+                  "fallback": "B",
+                  "font": "skyblock_legacy:logo",
+                  "color": "#FFFFFF",
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "translate": "skyblock_legacy.action.click_to_view",
+                      "fallback": "Click to view on %s\n%s",
+                      "color": "yellow",
+                      "with": [
+                        { "translate": "skyblock_legacy.social.github", "fallback": "GitHub" },
+                        { "text": "https://github.com/nightlibra/hypixel_skyblock_legacy", "color": "gray" }
+                      ]
+                    }
+                  },
+                  "click_event": {
+                    "action": "open_url",
+                    "url": "https://github.com/nightlibra/hypixel_skyblock_legacy"
+                  }
+                },
+                {
+                  "translate": "skyblock_legacy.technical.en_ud.3",
+                  "fallback": "C",
+                  "font": "skyblock_legacy:logo",
+                  "color": "#FFFFFF",
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "translate": "skyblock_legacy.action.click_to_join",
+                      "fallback": "Click to join the %s\n%s",
+                      "color": "yellow",
+                      "with": [
+                        { "translate": "skyblock_legacy.social.discord", "fallback": "Discord" },
+                        { "text": "https://discord.gg/M7HqWKxDxS", "color": "gray" }
+                      ]
+                    }
+                  },
+                  "click_event": { "action": "open_url", "url": "https://discord.gg/M7HqWKxDxS" }
+                }
               ]
             }
           },
           {
             "type": "information",
-            "title": {"translate":"skyblock_legacy.contribution.maintainers","fallback":"Maintainers"},
+            "title": { "translate": "skyblock_legacy.contribution.maintainers", "fallback": "Maintainers" },
             "description": [
-              {"text":"","color":"#FFFFFF"},
-              [{"player":{"id":[-1364134607,-750761016,-1398478805,842316956]}}," ",{"text":"nightlibra","color":"aqua"},"\n"],
-              [{"player":{"id":[-265053015,1015367987,-1354586763,-374960882]}}," ",{"text":"chndrh","color":"aqua"},"\n"]
+              { "text": "", "color": "#FFFFFF" },
+              [
+                { "player": { "id": [-1364134607, -750761016, -1398478805, 842316956] } },
+                " ",
+                { "text": "nightlibra", "color": "aqua" },
+                "\n"
+              ],
+              [
+                { "player": { "id": [-265053015, 1015367987, -1354586763, -374960882] } },
+                " ",
+                { "text": "chndrh", "color": "aqua" },
+                "\n"
+              ]
             ]
           },
           {
             "type": "information",
-            "title": {"translate":"skyblock_legacy.contribution.artists","fallback":"Artists"},
+            "title": { "translate": "skyblock_legacy.contribution.artists", "fallback": "Artists" },
             "description": [
-              {"text":"","color":"#FFFFFF"},
-              [{"player":{"id":[-265053015,1015367987,-1354586763,-374960882]}}," ",{"text":"chndrh","color":"aqua"}," ",{"text":"35","color":"dark_gray"},"\n"],
-              [{"player":{"id":[-1364134607,-750761016,-1398478805,842316956]}}," ",{"text":"nightlibra","color":"aqua"}," ",{"text":"3","color":"dark_gray"},"\n"],
-              [{"player":{"id":[-1967312988,10636017,-2121482688,-2016335122]}}," ",{"text":"Portoss","color":"green"}," ",{"text":"2","color":"dark_gray"},"\n"]
+              { "text": "", "color": "#FFFFFF" },
+              [
+                { "player": { "id": [-265053015, 1015367987, -1354586763, -374960882] } },
+                " ",
+                { "text": "chndrh", "color": "aqua" },
+                " ",
+                { "text": "35", "color": "dark_gray" },
+                "\n"
+              ],
+              [
+                { "player": { "id": [-1364134607, -750761016, -1398478805, 842316956] } },
+                " ",
+                { "text": "nightlibra", "color": "aqua" },
+                " ",
+                { "text": "3", "color": "dark_gray" },
+                "\n"
+              ],
+              [
+                { "player": { "id": [-1967312988, 10636017, -2121482688, -2016335122] } },
+                " ",
+                { "text": "Portoss", "color": "green" },
+                " ",
+                { "text": "2", "color": "dark_gray" },
+                "\n"
+              ]
             ]
           },
           {
             "type": "information",
-            "title": {"translate":"skyblock_legacy.contribution.translators","fallback":"Translators"},
+            "title": { "translate": "skyblock_legacy.contribution.translators", "fallback": "Translators" },
             "description": [
-              {"text":"","color":"#FFFFFF"},
-              {"translate":"skyblock_legacy.technical.3","fallback":"%s - %s","color":"dark_gray","with":[
-                [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:lang/en_us","color":"#FFFFFF"}," ",{"translate":"skyblock_legacy.lang.en_us","fallback":"English (US)","color":"gray"}],
-                [{"player":{"id":[-1364134607,-750761016,-1398478805,842316956]},"color":"#FFFFFF"}," ",{"text":"nightlibra","color":"aqua"},"\n"]
-              ]},
-              {"translate":"skyblock_legacy.technical.3","fallback":"%s - %s","color":"dark_gray","with":[
-                [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:lang/de_de","color":"#FFFFFF"}," ",{"translate":"skyblock_legacy.lang.de_de","fallback":"Deutsch (Deutschland)","color":"gray"}],
-                [{"player":{"id":[789503899,-15712016,-1593956148,-1765565110]},"color":"#FFFFFF"}," ",{"text":"ReyMaratov","color":"aqua"}," ",
-                {"player":{"id":[-1767539041,-1944827917,-2123438426,951718685]},"color":"#FFFFFF"}," ",{"text":"Kelsaiky","color":"aqua"},"\n"]
-              ]},
-              {"translate":"skyblock_legacy.technical.3","fallback":"%s - %s","color":"dark_gray","with":[
-                [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:lang/fr_fr","color":"#FFFFFF"}," ",{"translate":"skyblock_legacy.lang.fr_fr","fallback":"Français (France)","color":"gray"}],
-                [{"player":{"id":[-1967312988,10636017,-2121482688,-2016335122]},"color":"#FFFFFF"}," ",{"text":"Portoss","color":"green"},"\n"]
-              ]},
-              {"translate":"skyblock_legacy.technical.3","fallback":"%s - %s","color":"dark_gray","with":[
-                [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:lang/pl_pl","color":"#FFFFFF"}," ",{"translate":"skyblock_legacy.lang.pl_pl","fallback":"Polski (Polska)","color":"gray"}],
-                [{"player":{"id":[949739792,-745517888,-1629688361,-1314331837]},"color":"#FFFFFF"}," ",{"text":"zZzPandora","color":"gold"},"\n"]
-              ]},
-              {"translate":"skyblock_legacy.technical.3","fallback":"%s - %s","color":"dark_gray","with":[
-                [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:lang/en_pt","color":"#FFFFFF"}," ",{"translate":"skyblock_legacy.lang.en_pt","fallback":"Pirate Speak (The Seven Seas)","color":"gray"}],
-                [{"player":{"id":[754748853,1911377587,-1429384264,-1409327390]},"color":"#FFFFFF"}," ",{"text":"Stuffy","color":"gold"},"\n"]
-              ]}
+              { "text": "", "color": "#FFFFFF" },
+              {
+                "translate": "skyblock_legacy.technical.3",
+                "fallback": "%s - %s",
+                "color": "dark_gray",
+                "with": [
+                  [
+                    { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:lang/en_us", "color": "#FFFFFF" },
+                    " ",
+                    { "translate": "skyblock_legacy.lang.en_us", "fallback": "English (US)", "color": "gray" }
+                  ],
+                  [
+                    { "player": { "id": [-1364134607, -750761016, -1398478805, 842316956] }, "color": "#FFFFFF" },
+                    " ",
+                    { "text": "nightlibra", "color": "aqua" },
+                    "\n"
+                  ]
+                ]
+              },
+              {
+                "translate": "skyblock_legacy.technical.3",
+                "fallback": "%s - %s",
+                "color": "dark_gray",
+                "with": [
+                  [
+                    { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:lang/de_de", "color": "#FFFFFF" },
+                    " ",
+                    { "translate": "skyblock_legacy.lang.de_de", "fallback": "Deutsch (Deutschland)", "color": "gray" }
+                  ],
+                  [
+                    { "player": { "id": [789503899, -15712016, -1593956148, -1765565110] }, "color": "#FFFFFF" },
+                    " ",
+                    { "text": "ReyMaratov", "color": "aqua" },
+                    " ",
+                    { "player": { "id": [-1767539041, -1944827917, -2123438426, 951718685] }, "color": "#FFFFFF" },
+                    " ",
+                    { "text": "Kelsaiky", "color": "aqua" },
+                    "\n"
+                  ]
+                ]
+              },
+              {
+                "translate": "skyblock_legacy.technical.3",
+                "fallback": "%s - %s",
+                "color": "dark_gray",
+                "with": [
+                  [
+                    { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:lang/fr_fr", "color": "#FFFFFF" },
+                    " ",
+                    { "translate": "skyblock_legacy.lang.fr_fr", "fallback": "Français (France)", "color": "gray" }
+                  ],
+                  [
+                    { "player": { "id": [-1967312988, 10636017, -2121482688, -2016335122] }, "color": "#FFFFFF" },
+                    " ",
+                    { "text": "Portoss", "color": "green" },
+                    "\n"
+                  ]
+                ]
+              },
+              {
+                "translate": "skyblock_legacy.technical.3",
+                "fallback": "%s - %s",
+                "color": "dark_gray",
+                "with": [
+                  [
+                    { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:lang/pl_pl", "color": "#FFFFFF" },
+                    " ",
+                    { "translate": "skyblock_legacy.lang.pl_pl", "fallback": "Polski (Polska)", "color": "gray" }
+                  ],
+                  [
+                    { "player": { "id": [949739792, -745517888, -1629688361, -1314331837] }, "color": "#FFFFFF" },
+                    " ",
+                    { "text": "zZzPandora", "color": "gold" },
+                    "\n"
+                  ]
+                ]
+              },
+              {
+                "translate": "skyblock_legacy.technical.3",
+                "fallback": "%s - %s",
+                "color": "dark_gray",
+                "with": [
+                  [
+                    { "atlas": "minecraft:gui", "sprite": "skyblock_legacy:lang/en_pt", "color": "#FFFFFF" },
+                    " ",
+                    {
+                      "translate": "skyblock_legacy.lang.en_pt",
+                      "fallback": "Pirate Speak (The Seven Seas)",
+                      "color": "gray"
+                    }
+                  ],
+                  [
+                    { "player": { "id": [754748853, 1911377587, -1429384264, -1409327390] }, "color": "#FFFFFF" },
+                    " ",
+                    { "text": "Stuffy", "color": "gold" },
+                    "\n"
+                  ]
+                ]
+              }
             ]
           },
           {
             "type": "information",
-            "title": {"translate":"skyblock_legacy.contribution.origin.1","fallback":"Based on"},
+            "title": { "translate": "skyblock_legacy.contribution.origin.1", "fallback": "Based on" },
             "description": {
-              "translate":"skyblock_legacy.contribution.origin.2","fallback":"SkyBlock by %s\n\n","color":"gray",
-              "with":[
-                {"translate":"skyblock_legacy.technical.en_ud.4","fallback":"D","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_visit","fallback":"Click to visit %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.hypixel","fallback":"Hypixel"},{"text":"https://hypixel.net","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://hypixel.net"}}
+              "translate": "skyblock_legacy.contribution.origin.2",
+              "fallback": "SkyBlock by %s\n\n",
+              "color": "gray",
+              "with": [
+                {
+                  "translate": "skyblock_legacy.technical.en_ud.4",
+                  "fallback": "D",
+                  "font": "skyblock_legacy:logo",
+                  "color": "#FFFFFF",
+                  "hover_event": {
+                    "action": "show_text",
+                    "value": {
+                      "translate": "skyblock_legacy.action.click_to_visit",
+                      "fallback": "Click to visit %s\n%s",
+                      "color": "yellow",
+                      "with": [
+                        { "translate": "skyblock_legacy.social.hypixel", "fallback": "Hypixel" },
+                        { "text": "https://hypixel.net", "color": "gray" }
+                      ]
+                    }
+                  },
+                  "click_event": { "action": "open_url", "url": "https://hypixel.net" }
+                }
               ]
             }
           }
@@ -920,17 +1357,7 @@
         "condition": {
           "condition": "catharsis:config",
           "pack": "skyblock_legacy",
-          "id": "skyblock_legacy:font",
-          "value": "skyblock_legacy:vanilla_font"
-        }
-      },
-      {
-        "directory": "smooth_font",
-        "condition": {
-          "condition": "catharsis:config",
-          "pack": "skyblock_legacy",
-          "id": "skyblock_legacy:font",
-          "value": "skyblock_legacy:smooth_font"
+          "id": "skyblock_legacy:vanilla_font"
         }
       },
       {
