@@ -6,7 +6,7 @@
   },
 
   "meta": {
-    "version": ["v2.0.0", "mc:1.21.11+"],
+    "version": ["v2.0.1", "mc:1.21.11+"],
     "discord": "https://discord.gg/M7HqWKxDxS",
     "modrinth": "https://modrinth.com/resourcepack/hypixel-skyblock-legacy",
     "github": "https://github.com/nightlibra/hypixel_skyblock_legacy"
@@ -14,7 +14,7 @@
 
   "catharsis:pack/v1": {
     "id": "skyblock_legacy",
-    "version": "v2.0.0",
+    "version": "v2.0.1",
     "dependencies": {"catharsis": ">=1.0.0-beta.5"},
     "config": [
       {
@@ -27,7 +27,7 @@
             "description": {
               "translate":"skyblock_legacy.technical.2","fallback":"%s | %s • %s • %s","color":"dark_gray",
               "with":[
-                {"fallback":"v2.0.0","translate":"skyblock_legacy.version","color":"gray"},
+                {"fallback":"v2.0.1","translate":"skyblock_legacy.version","color":"gray"},
                 {"translate":"skyblock_legacy.technical.en_ud.1","fallback":"A","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_view","fallback":"Click to view on %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.modrinth","fallback":"Modrinth"},{"text":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy"}},
                 {"translate":"skyblock_legacy.technical.en_ud.2","fallback":"B","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_view","fallback":"Click to view on %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.github","fallback":"GitHub"},{"text":"https://github.com/nightlibra/hypixel_skyblock_legacy","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://github.com/nightlibra/hypixel_skyblock_legacy"}},
                 {"translate":"skyblock_legacy.technical.en_ud.3","fallback":"C","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_join","fallback":"Click to join the %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.discord","fallback":"Discord"},{"text":"https://discord.gg/M7HqWKxDxS","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://discord.gg/M7HqWKxDxS"}}
@@ -304,7 +304,7 @@
             "description": {
               "translate":"skyblock_legacy.technical.2","fallback":"%s | %s • %s • %s","color":"dark_gray",
               "with":[
-                {"fallback":"v2.0.0","translate":"skyblock_legacy.version","color":"gray"},
+                {"fallback":"v2.0.1","translate":"skyblock_legacy.version","color":"gray"},
                 {"translate":"skyblock_legacy.technical.en_ud.1","fallback":"A","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_view","fallback":"Click to view on %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.modrinth","fallback":"Modrinth"},{"text":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://modrinth.com/resourcepack/hypixel-skyblock-legacy"}},
                 {"translate":"skyblock_legacy.technical.en_ud.2","fallback":"B","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_view","fallback":"Click to view on %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.github","fallback":"GitHub"},{"text":"https://github.com/nightlibra/hypixel_skyblock_legacy","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://github.com/nightlibra/hypixel_skyblock_legacy"}},
                 {"translate":"skyblock_legacy.technical.en_ud.3","fallback":"C","font":"skyblock_legacy:logo","color":"#FFFFFF","hover_event":{"action":"show_text","value":{"translate":"skyblock_legacy.action.click_to_join","fallback":"Click to join the %s\n%s","color":"yellow","with":[{"translate":"skyblock_legacy.social.discord","fallback":"Discord"},{"text":"https://discord.gg/M7HqWKxDxS","color":"gray"}]}},"click_event":{"action":"open_url","url":"https://discord.gg/M7HqWKxDxS"}}
@@ -355,6 +355,10 @@
               {"translate":"skyblock_legacy.technical.3","fallback":"%s - %s","color":"dark_gray","with":[
                 [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:lang/en_pt","color":"#FFFFFF"}," ",{"translate":"skyblock_legacy.lang.en_pt","fallback":"Pirate Speak (The Seven Seas)","color":"gray"}],
                 [{"player":{"id":[754748853,1911377587,-1429384264,-1409327390]},"color":"#FFFFFF"}," ",{"text":"Stuffy","color":"gold"},"\n"]
+              ]},
+              {"translate":"skyblock_legacy.technical.3","fallback":"%s - %s","color":"dark_gray","with":[
+                [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:lang/lol_us","color":"#FFFFFF"}," ",{"translate":"skyblock_legacy.lang.lol_us","fallback":"LOLCAT (Kingdom of Cats)","color":"gray"}],
+                [{"player":{"id":[2090741372,-1745270131,-1189060220,1861190505]},"color":"#FFFFFF"}," ",{"text":"catgirlHanna","color":"gray"},"\n"]
               ]}
             ]
           },
