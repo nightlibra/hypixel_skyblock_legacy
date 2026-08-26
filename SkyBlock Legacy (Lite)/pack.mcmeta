@@ -2,7 +2,7 @@
   "pack": {
     "min_format": [75, 0],
     "max_format": [88, 0],
-    "description": ["The original Hypixel SkyBlock art direction",{"text":" -nightlibra","color":"dark_gray"}]
+    "description": ["The original Hypixel SkyBlock art direction - ",{"text":"nightlibra","color":"dark_gray"}]
   },
 
   "meta": {

@@ -325,7 +325,7 @@
             "title": {"translate":"skyblock_legacy.contribution.artists","fallback":"Artists"},
             "description": [
               {"text":"","color":"#FFFFFF"},
-              [{"player":{"id":[-265053015,1015367987,-1354586763,-374960882]}}," ",{"text":"chndrh","color":"aqua"}," ",{"text":"35","color":"dark_gray"},"\n"],
+              [{"player":{"id":[-265053015,1015367987,-1354586763,-374960882]}}," ",{"text":"chndrh","color":"aqua"}," ",{"text":"38","color":"dark_gray"},"\n"],
               [{"player":{"id":[-1364134607,-750761016,-1398478805,842316956]}}," ",{"text":"nightlibra","color":"aqua"}," ",{"text":"3","color":"dark_gray"},"\n"],
               [{"player":{"id":[-1967312988,10636017,-2121482688,-2016335122]}}," ",{"text":"Portoss","color":"green"}," ",{"text":"2","color":"dark_gray"},"\n"]
             ]
