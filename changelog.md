@@ -26,6 +26,13 @@
 - Added New Textures
   - Crunchy Bug [Art by chndrh] (Miscellaneous)
 
+# Contributors
+- chndrh - 3 textures
+- catgirlHanna - 1 language
+- momenazhar - vanilla glyph fixes
+
+If you would like to contribute art for new SkyBlock items, translate **SkyBlock Legacy** into your language, or suggest **Reimagined** changes, you can join my project Discord [HERE](https://discord.gg/M7HqWKxDxS)!
+
 ----
 # ---- v2.0.0 ----
 # Project Scope
