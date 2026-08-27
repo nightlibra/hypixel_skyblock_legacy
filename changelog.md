@@ -18,7 +18,7 @@
   - Brine Tonic [Art by chndrh] (Salt)
 - Added Minecraft Textures
   - Forests Favor [Kelp] (Uncategorized)
-  - Sea Brine [Cyan Dye] (Uncategorized)
+  - Sea Brine [Light Blue Dye] (Uncategorized)
 
 ## [SkyBlock Version 0.27](https://hypixel.net/threads/6132090/)
 - Added Legacy SkyBlock Textures
