@@ -166,6 +166,11 @@
                 "selected": true
               },
               {
+                "value": "skyblock_legacy:category/power_stone",
+                "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/power_stone"}," ",{"translate":"skyblock_legacy.config.category.power_stone","fallback":"Power Stone"}],
+                "selected": true
+              },
+              {
                 "value": "skyblock_legacy:category/reforge_stone",
                 "text": [{"atlas":"minecraft:gui","sprite":"skyblock_legacy:icon/reforge_stone"}," ",{"translate":"skyblock_legacy.config.category.reforge_stone","fallback":"Reforge Stone"}],
                 "selected": true
@@ -566,6 +571,15 @@
           "pack": "skyblock_legacy",
           "id": "skyblock_legacy:category",
           "value": "skyblock_legacy:category/pickaxe"
+        }
+      },
+      {
+        "directory": "legacy_power_stone",
+        "condition": {
+          "condition": "catharsis:config",
+          "pack": "skyblock_legacy",
+          "id": "skyblock_legacy:category",
+          "value": "skyblock_legacy:category/power_stone"
         }
       },
       {

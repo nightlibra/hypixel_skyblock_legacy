@@ -17,8 +17,8 @@
   - Marshroom [Art by chndrh] (Reforge Stone)
   - Brine Tonic [Art by chndrh] (Salt)
 - Added Minecraft Textures
-  - Forests Favor [Kelp] (Uncategorized)
-  - Sea Brine [Light Blue Dye] (Uncategorized)
+  - Forests Favor [Kelp] (Miscellaneous)
+  - Sea Brine [Light Blue Dye] (Miscellaneous)
 
 ## [SkyBlock Version 0.27](https://hypixel.net/threads/6132090/)
 - Added Legacy SkyBlock Textures
