@@ -1,5 +1,46 @@
 ----
+# ---- v2.1.0 ----
+# Contributors
+- nightlibra - 11 textures
+- chndrh - 3 textures
+
+If you would like to contribute art for new SkyBlock items, translate **SkyBlock Legacy** into your language, or suggest **Reimagined** changes, you can join my project Discord [HERE](https://discord.gg/M7HqWKxDxS)!
+
+# Changelog
+
+## [SkyBlock Version 0.27.2](https://hypixel.net/threads/6158219/)
+- Added Legacy SkyBlock Textures
+  - All Equipment (146 Items)
+  - All Reforge Stones (81 Items)
+  - All Power Stones (21 Items)
+  - Beastslayers Codex [Player Head Art] (Accessory)
+  - Blizzard in a Bottle [Player Head Art] (Miscellaneous)
+  - Creative Mind [Painting] (Miscellaneous)
+- Added New Textures
+  - Powder of One [Art by nightlibra] (Accessory)
+  - Powder of the Few [Art by nightlibra] (Accessory)
+  - Powder of the Many [Art by nightlibra] (Accessory)
+  - Powder of People [Art by nightlibra] (Accessory)
+  - Hotspot Talisman [Art by nightlibra] (Accessory)
+  - Hotspot Ring [Art by nightlibra] (Accessory)
+  - Hotspot Artifact [Art by nightlibra] (Accessory)
+  - Infinipot [Art by nightlibra] (Accessory)
+  - Countraband [Art by chndrh] (Pet Item)
+  - Grungle [Art by chndrh] (Pet Item)
+  - Mining Off Camera [Art by chndrh] (Pet Item)
+  - Nothing in a Bottle [Art by nightlibra] (Miscellaneous)
+  - Scatha in a Bottle [Art by nightlibra] (Miscellaneous)
+  - Refractive Paint Palette [Art by nightlibra] (Miscellaneous)
+
+----
 # ---- v2.0.1 ----
+# Contributors
+- chndrh - 3 textures
+- catgirlHanna - 1 language
+- momenazhar - vanilla glyph fixes
+
+If you would like to contribute art for new SkyBlock items, translate **SkyBlock Legacy** into your language, or suggest **Reimagined** changes, you can join my project Discord [HERE](https://discord.gg/M7HqWKxDxS)!
+
 # Changelog
 
 ## SkyBlock Legacy v2.0.1
@@ -26,13 +67,6 @@
 - Added New Textures
   - Crunchy Bug [Art by chndrh] (Miscellaneous)
 
-# Contributors
-- chndrh - 3 textures
-- catgirlHanna - 1 language
-- momenazhar - vanilla glyph fixes
-
-If you would like to contribute art for new SkyBlock items, translate **SkyBlock Legacy** into your language, or suggest **Reimagined** changes, you can join my project Discord [HERE](https://discord.gg/M7HqWKxDxS)!
-
 ----
 # ---- v2.0.0 ----
 # Project Scope
@@ -44,6 +78,7 @@ For those interested, I've created a new resource pack - [SkyBlock Classic](http
 
 # Contributors
 - chndrh - 35 textures
+- nightlibra - 3 textures
 - Portoss - 2 textures and 1 language
 - ReyMaratov - 1 language
 - Kelsaiky - 1 language
@@ -217,4 +252,5 @@ The philosophy behind SkyBlock Reimagined is a simple question: "What might SkyB
   - Bee Saliva [Honey Bottle] (Miscellaneous)
   - Water Hyacinth [Peony] (Miscellaneous)
   - Distant Echo [Echo Shard] (Miscellaneous)
+
 ----
