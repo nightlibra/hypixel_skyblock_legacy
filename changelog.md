@@ -1,4 +1,24 @@
 ----
+# ---- v2.1.1 ----
+# Changelog
+
+## SkyBlock Legacy v2.1.1
+- Added Legacy SkyBlock Textures
+  - Day Crystal [Player Head Art] (Accessory)
+  - Night Crystal [Player Head Art] (Accessory)
+  - Sunshine Crystal [Player Head Art] (Accessory)
+  - Moonlight Crystal [Player Head Art] (Accessory)
+  - Eternal Crystal [Nether Star] (Accessory)
+  - Manticore Claw [Player Head Art] (Equipment)
+  - Flaming Fist [Player Head Art] (Equipment)
+  - Knuckle Sandwich [Player Head Art] (Equipment)
+  - Synthesizer_v1 [Player Head Art] (Equipment)
+  - Synthesizer_v2 [Player Head Art] (Equipment)
+  - Synthesizer_v3 [Player Head Art] (Equipment)
+- Added Minecraft Textures
+  - Dead Man's Journal [Book] (Miscellaneous)
+
+--------
 # ---- v2.1.0 ----
 # Contributors
 - nightlibra - 11 textures
