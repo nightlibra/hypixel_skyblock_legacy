@@ -1,8 +1,18 @@
 ----
+# ---- v2.1.2 ----
+# Changelog
+
+## SkyBlock Legacy v2.1.2
+- Fixed the first tier of David's Cloak missing its texture
+- Fixed the Golden Belt missing its texture
+- Fixed the Shen's Ringalia missing its texture
+- Fixed the Self-Recursive Pickaxe using the wrong texture
+
+------------
 # ---- v2.1.1 ----
 # Changelog
 
-## SkyBlock Legacy v2.1.1
+## [SkyBlock Version 0.27.2](https://hypixel.net/threads/6159904/)
 - Added Legacy SkyBlock Textures
   - Day Crystal [Player Head Art] (Accessory)
   - Night Crystal [Player Head Art] (Accessory)
@@ -12,9 +22,9 @@
   - Manticore Claw [Player Head Art] (Equipment)
   - Flaming Fist [Player Head Art] (Equipment)
   - Knuckle Sandwich [Player Head Art] (Equipment)
-  - Synthesizer_v1 [Player Head Art] (Equipment)
-  - Synthesizer_v2 [Player Head Art] (Equipment)
-  - Synthesizer_v3 [Player Head Art] (Equipment)
+  - Synthesizer v1 [Player Head Art] (Equipment)
+  - Synthesizer v2 [Player Head Art] (Equipment)
+  - Synthesizer v3 [Player Head Art] (Equipment)
 - Added Minecraft Textures
   - Dead Man's Journal [Book] (Miscellaneous)
 
