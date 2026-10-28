@@ -1,4 +1,24 @@
 ----
+# ---- v2.2.0 ----
+# Changelog
+
+## [SkyBlock Patch](https://hypixel.net/threads/6165200/)
+- Added Legacy SkyBlock Textures
+  - Black Woolen Yarn [Black Wool] (Miscellaneous)
+  - Dark Candy [Player Head Art] (Miscellaneous)
+  - Ectoplasm [Prismarine Crystals] (Miscellaneous)
+  - Expired Pumpkin [Player Head Art] (Miscellaneous)
+  - Green Candy [Player Head Art] (Miscellaneous)
+  - Horseman's Candle [Player Head Art] (Miscellaneous)
+  - Pumpkin Guts [Pumpkin Seeds] (Miscellaneous)
+  - Purple Candy [Player Head Art] (Miscellaneous)
+  - Scare Fragment [Black Stained Glass] (Miscellaneous)
+  - Sleepy Hollow [Player Head Art] (Miscellaneous)
+  - Spooky Fragment [Player Head Art] (Miscellaneous)
+- Added Minecraft Textures
+  - Poltergeist Pitchfork [Trident] (Sword)
+
+----
 # ---- v2.1.2 ----
 # Changelog
 
@@ -8,7 +28,7 @@
 - Fixed the Shen's Ringalia missing its texture
 - Fixed the Self-Recursive Pickaxe using the wrong texture
 
-------------
+----
 # ---- v2.1.1 ----
 # Changelog
 
@@ -28,7 +48,7 @@
 - Added Minecraft Textures
   - Dead Man's Journal [Book] (Miscellaneous)
 
---------
+----
 # ---- v2.1.0 ----
 # Contributors
 - nightlibra - 11 textures
