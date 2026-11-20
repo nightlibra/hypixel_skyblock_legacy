@@ -1,4 +1,22 @@
 ----
+# ---- v2.2.1 ----
+# Contributors
+- nightlibra - 1 texture
+
+If you would like to contribute art for new SkyBlock items, translate **SkyBlock Legacy** into your language, or suggest **Reimagined** changes, you can join my project Discord [HERE](https://discord.gg/M7HqWKxDxS)!
+
+# Changelog
+
+## [SkyBlock Version 0.27.3](https://hypixel.net/threads/6171140/)
+- Added New Textures
+  - Divine Gift [Art by nightlibra] (Miscellaneous)
+
+## [SkyBlock Patch](https://hypixel.net/threads/6165200/)
+- Added Other Textures
+  - Ghostfly's Soul [Player Head Art] (Memento)
+    - Uses the Ghostfly pest texture
+
+----
 # ---- v2.2.0 ----
 # Changelog
 
